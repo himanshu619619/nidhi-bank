@@ -1,0 +1,7099 @@
+﻿/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+
+address,
+article,
+aside,
+blockquote,
+body,
+dd,
+div,
+dl,
+dt,
+fieldset,
+figcaption,
+figure,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hr,
+html,
+input,
+legend form,
+li,
+main,
+nav,
+ol,
+p,
+pre,
+section,
+select,
+table,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.4;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+    audio:not([controls]) {
+        display: none;
+        height: 0;
+    }
+
+[hidden],
+template {
+    display: none;
+}
+
+a {
+    background: 0 0;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+    a:active,
+    a:hover {
+        outline: 0;
+    }
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+dfn {
+    font-style: italic;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -.5em;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+pre {
+    overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+}
+
+button {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+    button[disabled],
+    html input[disabled] {
+        cursor: default;
+    }
+
+    button::-moz-focus-inner,
+    input::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+
+input {
+    line-height: normal;
+}
+
+    input[type=checkbox],
+    input[type=radio] {
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        height: auto;
+    }
+
+    input[type=search] {
+        -webkit-appearance: textfield;
+        box-sizing: content-box;
+    }
+
+        input[type=search]::-webkit-search-cancel-button,
+        input[type=search]::-webkit-search-decoration {
+            -webkit-appearance: none;
+        }
+
+textarea {
+    overflow: auto;
+}
+
+optgroup {
+    font-weight: 700;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: ' ';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+@font-face {
+    font-family: Graphik-Medium;
+    src: url(../fonts/BurgundyFont/Graphik-Medium.eot);
+    src: url(../fonts/BurgundyFont/Graphik-Mediumd41d.eot?#iefix) format("embedded-opentype"), url(../fonts/BurgundyFont/Graphik-Medium.woff2) format("woff2"), url(../fonts/BurgundyFont/Graphik-Medium.woff) format("woff"), url(../fonts/BurgundyFont/Graphik-Medium.ttf) format("truetype"), url(../fonts/BurgundyFont/Graphik-Medium.svg#Graphik-Medium) format("svg");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Graphik-Light;
+    src: url(../fonts/BurgundyFont/Graphik-Light.eot);
+    src: url(../fonts/BurgundyFont/Graphik-Lightd41d.eot?#iefix) format("embedded-opentype"), url(../fonts/BurgundyFont/Graphik-Light.woff2) format("woff2"), url(../fonts/BurgundyFont/Graphik-Light.woff) format("woff"), url(../fonts/BurgundyFont/Graphik-Light.ttf) format("truetype"), url(../fonts/BurgundyFont/Graphik-Light.svg#Graphik-Light) format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Graphik-Semibold;
+    src: url(../fonts/BurgundyFont/Graphik-Semibold.eot);
+    src: url(../fonts/BurgundyFont/Graphik-Semiboldd41d.eot?#iefix) format("embedded-opentype"), url(../fonts/BurgundyFont/Graphik-Semibold.woff2) format("woff2"), url(../fonts/BurgundyFont/Graphik-Semibold.woff) format("woff"), url(../fonts/BurgundyFont/Graphik-Semibold.ttf) format("truetype"), url(../fonts/BurgundyFont/Graphik-Semibold.svg#Graphik-Semibold) format("svg");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Graphik-Bold;
+    src: url(../fonts/BurgundyFont/Graphik-Bold.eot);
+    src: url(../fonts/BurgundyFont/Graphik-Boldd41d.eot?#iefix) format("embedded-opentype"), url(../fonts/BurgundyFont/Graphik-Bold.woff2) format("woff2"), url(../fonts/BurgundyFont/Graphik-Bold.woff) format("woff"), url(../fonts/BurgundyFont/Graphik-Bold.ttf) format("truetype"), url(../fonts/BurgundyFont/Graphik-Bold.svg#Graphik-Bold) format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Graphik-Regular;
+    src: url(../fonts/BurgundyFont/Graphik-Regular.eot);
+    src: url(../fonts/BurgundyFont/Graphik-Regulard41d.eot?#iefix) format("embedded-opentype"), url(../fonts/BurgundyFont/Graphik-Regular.woff2) format("woff2"), url(../fonts/BurgundyFont/Graphik-Regular.woff) format("woff"), url(../fonts/BurgundyFont/Graphik-Regular.ttf) format("truetype"), url(../fonts/BurgundyFont/Graphik-Regular.svg#Graphik-Regular) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    overflow-x: hidden;
+    background: #fff;
+}
+
+.defaultBox {
+    background: #fff;
+    box-shadow: 0 1px 22px #788693;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 15px 0;
+    padding: 15px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 22px;
+    color: #252d3a;
+}
+
+h3 {
+    font-size: 20px;
+    color: #444;
+}
+
+.bannerWrap img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.burgwBox {
+    padding: 27px 54px;
+    background-color: #fff;
+    box-shadow: 0 0 27px 2px #9b9892;
+}
+
+    .burgwBox h3 {
+        font-size: 24px;
+        line-height: 26px;
+        color: #bf9d46;
+        font-family: Graphik-Medium;
+    }
+
+    .burgwBox p {
+        padding: 20px 0;
+        font-size: 15px;
+        line-height: 26px;
+        color: #414042;
+        font-family: Graphik-Regular;
+    }
+
+.colReset {
+    padding: 0;
+}
+
+.btnLink {
+    background: #981c50;
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+    .btnLink:hover {
+        background: #ae275f;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .btnLink:focus,
+    .btnLink:visited {
+        color: #fff;
+    }
+
+a.expleAnchDef {
+    font-size: 15px;
+    color: #ae275f;
+    text-decoration: none;
+    font-family: Graphik-Semibold;
+}
+
+
+
+
+/*header {
+    border-top: 6px solid #987d48;
+    width: 100%;
+}*/
+
+.home header {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*footer {
+    display: block;
+    font-family: Helvetica, "Helvetica Neue", Arial;
+    display: none;
+}
+
+.footerUpSec {
+    background-color: #ae275f;
+    width: 100%;
+    padding: 80px 15px 0;
+}
+
+.footerMainUl {
+    padding-bottom: 4px;
+    font-family: Arial;
+}
+
+    .footerMainUl h3.head {
+        font-family: Arial;
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 700;
+    }
+
+    .footerMainUl li {
+        padding-left: 20px;
+    }
+
+        .footerMainUl li:first-child {
+            padding-left: 0;
+        }
+
+        .footerMainUl li li {
+            padding-left: 0;
+        }
+
+        .footerMainUl li p {
+            padding-bottom: 10px;
+            font-size: 14px;
+            position: relative;
+            color: #fff;
+        }
+
+        .footerMainUl li a {
+            margin-bottom: 10px;
+            font-size: 14px;
+            padding-bottom: 0;
+        }
+
+        .footerMainUl li.col {
+            width: 19%;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+            .footerMainUl li.col ul.socialLinks li a {
+                color: #fff;
+            }
+
+                .footerMainUl li.col ul.socialLinks li a:hover {
+                    color: #ae275f;
+                }
+
+            .footerMainUl li.col ul li:last-child {
+                border: none;
+            }
+
+    .footerMainUl .cont h3 {
+        font-size: 13px;
+    }
+
+    .footerMainUl .socialLinks a:after {
+        display: none;
+    }*/
+
+.cus_rel {
+    font-size: 14px;
+    width: 100%;
+    z-index: 997;
+    background: #ae275f;
+    float: left;
+}
+
+.rel {
+    position: relative;
+}
+
+.clearfix {
+    clear: none;
+}
+
+.rel .country_foot_rp {
+    border: 1px solid #fff;
+    color: #fff;
+    position: relative;
+    padding: 1px 15px;
+}
+
+    .rel .country_foot_rp:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        width: 20px;
+        height: 20px;
+        background: url(../img/BurgundyImg/redArrow.html) no-repeat 96% center #ae275f;
+        top: 1px;
+    }
+
+.selectDropd {
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+    .selectDropd select {
+        width: 100%;
+        text-align: left;
+        vertical-align: middle;
+        padding: 8px 14px;
+        color: #fff;
+        font-size: 15px;
+        border: 1px solid #fff;
+        margin-bottom: 40px;
+        outline: 0;
+        background: url(../img/BurgundyImg/select_arrow.png) no-repeat 96% center #ae275f;
+        -webkit-appearance: none;
+    }
+
+        .selectDropd select::-ms-expand {
+            display: none;
+        }
+
+        .selectDropd select option {
+            background: #e7e6e6;
+            color: #000;
+        }
+
+            .selectDropd select option:hover {
+                background: #ff0 !important;
+            }
+
+/*.socialLinks li {
+    display: inline-block;
+    margin-right: 3px;
+    vertical-align: top;
+    border: none;
+}
+
+    .socialLinks li a {
+        width: 32px;
+        height: 32px;
+        display: block;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        text-decoration: none;
+        line-height: 30px;
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+    }
+
+        .socialLinks li a:hover {
+            text-decoration: none;
+            background: #fff;
+            color: #ae275f;
+        }*/
+
+/*.footerMainUl a,
+.footerMainUl p,
+.middleFooterCon a,
+.middleFooterCon p {
+    color: #fff;
+    font-size: 13px;
+    line-height: 14px;
+    text-decoration: none;
+    font-family: Helvetica, "Helvetica Neue", Arial;
+}
+
+.footerMainUl h3,
+.middleFooterCon h3 {
+    color: #fff;
+    padding-bottom: 24px;
+    font-size: 15px;
+}
+
+.footerMainUl p,
+.middleFooterCon p {
+    padding-bottom: 22px;
+    line-height: 18px;
+}
+
+.footerMainUl a,
+.middleFooterCon a {
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+    .footerMainUl a:after,
+    .middleFooterCon a:after {
+        content: "";
+        background-color: #fff;
+        height: 1px;
+        left: 0;
+        margin-top: 2px;
+        position: absolute;
+        top: 100%;
+        transition: all .3s ease-in-out 0s;
+        width: 0;
+    }
+
+    .footerMainUl a:hover:after,
+    .middleFooterCon a:hover:after {
+        width: 100%;
+    }
+
+.js-accordMob {
+    position: relative;
+}
+
+.middleFooterCon {
+    border-bottom: 1px solid #c6688f;
+    padding: 15px 0;
+}
+
+    .middleFooterCon li {
+        padding-bottom: 4px;
+    }
+
+    .middleFooterCon .cont {
+        border: none;
+    }
+
+    .middleFooterCon h3 {
+        display: inline-block;
+        font-size: 13px;
+        padding-bottom: 0;
+        text-decoration: underline;
+    }
+
+    .middleFooterCon .links {
+        display: inline-block;
+        font-size: 13px;
+        color: #fff;
+    }
+
+        .middleFooterCon .links a {
+            margin-left: 3px;
+        }
+
+    .middleFooterCon p span {
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .middleFooterCon .socialLinks li {
+        border: none;
+    }
+
+        .middleFooterCon .socialLinks li a {
+            text-decoration: none;
+        }
+
+            .middleFooterCon .socialLinks li a:after {
+                display: none;
+            }
+
+.footerBtmSec {
+    background-color: #ae275f;
+    width: 100%;
+    padding: 20px 0 30px 0;
+}
+
+.copyright {
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 15px;
+    float: left;
+}*/
+
+ul.cpDiscMap {
+    display: inline-block;
+}
+
+    ul.cpDiscMap li {
+        display: inline-block;
+        color: #fff;
+        font-size: 13px;
+    }
+
+        ul.cpDiscMap li a {
+            color: #fff;
+            padding: 0 30px;
+            border-right: 1px solid #fff;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+            ul.cpDiscMap li a:after {
+                content: '';
+                display: block;
+                height: 1px;
+                width: 0;
+                background: 0 0;
+                transition: width .5s ease, background-color .5s ease;
+            }
+
+            ul.cpDiscMap li a:hover:after {
+                background-color: #fff;
+                width: 100%;
+            }
+
+        ul.cpDiscMap li:last-child a {
+            border: none;
+        }
+
+/*.back-to-top {
+    position: fixed;
+    bottom: 55px;
+    right: 40px;
+    z-index: 998;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 30px;
+    background: #ae275f;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: opacity .2s ease-out;
+    opacity: 0;
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+    .back-to-top:focus,
+    .back-to-top:hover {
+        text-decoration: none;
+    }
+
+    .back-to-top.view {
+        opacity: 1;
+    }
+
+    .back-to-top .icon-drop {
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+        top: 14px;
+    }*/
+
+.owl-carousel,
+.owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+
+    .owl-carousel .owl-stage {
+        position: relative;
+        -ms-touch-action: pan-Y;
+    }
+
+        .owl-carousel .owl-stage:after {
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            line-height: 0;
+            height: 0;
+        }
+
+    .owl-carousel .owl-stage-outer {
+        position: relative;
+        overflow: hidden;
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+
+    .owl-carousel .owl-item {
+        min-height: 1px;
+        float: left;
+        -webkit-backface-visibility: hidden;
+        -webkit-touch-callout: none;
+    }
+
+        .owl-carousel .owl-item img {
+            display: block;
+            width: 100%;
+            -webkit-transform-style: preserve-3d;
+        }
+
+    .owl-carousel .owl-dots.disabled,
+    .owl-carousel .owl-nav.disabled {
+        display: none;
+    }
+
+    .no-js .owl-carousel,
+    .owl-carousel.owl-loaded {
+        display: block;
+    }
+
+    .owl-carousel .owl-dot,
+    .owl-carousel .owl-nav .owl-next,
+    .owl-carousel .owl-nav .owl-prev {
+        cursor: pointer;
+        cursor: hand;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .owl-carousel.owl-loading {
+        opacity: 0;
+        display: block;
+    }
+
+    .owl-carousel.owl-hidden {
+        opacity: 0;
+    }
+
+    .owl-carousel.owl-refresh .owl-item {
+        visibility: hidden;
+    }
+
+    .owl-carousel.owl-drag .owl-item {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .owl-carousel.owl-grab {
+        cursor: move;
+        cursor: -webkit-grab;
+        cursor: grab;
+    }
+
+    .owl-carousel.owl-rtl {
+        direction: rtl;
+    }
+
+        .owl-carousel.owl-rtl .owl-item {
+            float: right;
+        }
+
+    .owl-carousel .animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+
+    .owl-carousel .owl-animated-in {
+        z-index: 0;
+    }
+
+    .owl-carousel .owl-animated-out {
+        z-index: 1;
+    }
+
+    .owl-carousel .fadeOut {
+        -webkit-animation-name: fadeOut;
+        animation-name: fadeOut;
+    }
+
+.owl-height {
+    transition: height .5s ease-in-out;
+}
+
+.owl-carousel .owl-item .owl-lazy {
+    opacity: 0;
+    transition: opacity .4s ease;
+}
+
+.owl-carousel .owl-item img.owl-lazy {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.owl-carousel .owl-video-wrapper {
+    position: relative;
+    height: 100%;
+    background: #000;
+}
+
+.owl-carousel .owl-video-play-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left: 50%;
+    top: 50%;
+    margin-left: -40px;
+    margin-top: -40px;
+    background: url(owl.video.play.html) no-repeat;
+    cursor: pointer;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+    transition: -webkit-transform .1s ease;
+    transition: transform .1s ease;
+}
+
+    .owl-carousel .owl-video-play-icon:hover {
+        -webkit-transform: scale(1.3, 1.3);
+        -ms-transform: scale(1.3, 1.3);
+        transform: scale(1.3, 1.3);
+    }
+
+.owl-carousel .owl-video-playing .owl-video-play-icon,
+.owl-carousel .owl-video-playing .owl-video-tn {
+    display: none;
+}
+
+.owl-carousel .owl-video-tn {
+    opacity: 0;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: opacity .4s ease;
+}
+
+.owl-carousel .owl-video-frame {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #d6d6d6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+
+    .owl-theme .owl-dots .owl-dot {
+        display: inline-block;
+        zoom: 1;
+    }
+
+        .owl-theme .owl-dots .owl-dot.active span,
+        .owl-theme .owl-dots .owl-dot:hover span {
+            background: #869791;
+        }
+
+
+
+
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license
+
+Copyright (c) 2013 Daniel Eden
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+    .animated.hinge {
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+    }
+
+.bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+}
+
+.flash {
+    -webkit-animation-name: flash;
+    animation-name: flash;
+}
+
+.pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+.shake {
+    -webkit-animation-name: shake;
+    animation-name: shake;
+}
+
+.swing {
+    -webkit-transform-origin: top center;
+    -ms-transform-origin: top center;
+    transform-origin: top center;
+    -webkit-animation-name: swing;
+    animation-name: swing;
+}
+
+.tada {
+    -webkit-animation-name: tada;
+    animation-name: tada;
+}
+
+.wobble {
+    -webkit-animation-name: wobble;
+    animation-name: wobble;
+}
+
+.bounceIn {
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+}
+
+.bounceInDown {
+    -webkit-animation-name: bounceInDown;
+    animation-name: bounceInDown;
+}
+
+.bounceInLeft {
+    -webkit-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
+}
+
+.bounceInRight {
+    -webkit-animation-name: bounceInRight;
+    animation-name: bounceInRight;
+}
+
+.bounceInUp {
+    -webkit-animation-name: bounceInUp;
+    animation-name: bounceInUp;
+}
+
+.bounceOut {
+    -webkit-animation-name: bounceOut;
+    animation-name: bounceOut;
+}
+
+.bounceOutDown {
+    -webkit-animation-name: bounceOutDown;
+    animation-name: bounceOutDown;
+}
+
+.bounceOutLeft {
+    -webkit-animation-name: bounceOutLeft;
+    animation-name: bounceOutLeft;
+}
+
+.bounceOutRight {
+    -webkit-animation-name: bounceOutRight;
+    animation-name: bounceOutRight;
+}
+
+.bounceOutUp {
+    -webkit-animation-name: bounceOutUp;
+    animation-name: bounceOutUp;
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+.fadeInDownBig {
+    -webkit-animation-name: fadeInDownBig;
+    animation-name: fadeInDownBig;
+}
+
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+.fadeInLeftBig {
+    -webkit-animation-name: fadeInLeftBig;
+    animation-name: fadeInLeftBig;
+}
+
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+
+.fadeInRightBig {
+    -webkit-animation-name: fadeInRightBig;
+    animation-name: fadeInRightBig;
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.fadeInUpBig {
+    -webkit-animation-name: fadeInUpBig;
+    animation-name: fadeInUpBig;
+}
+
+.fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+}
+
+.fadeOutDown {
+    -webkit-animation-name: fadeOutDown;
+    animation-name: fadeOutDown;
+}
+
+.fadeOutDownBig {
+    -webkit-animation-name: fadeOutDownBig;
+    animation-name: fadeOutDownBig;
+}
+
+.fadeOutLeft {
+    -webkit-animation-name: fadeOutLeft;
+    animation-name: fadeOutLeft;
+}
+
+.fadeOutLeftBig {
+    -webkit-animation-name: fadeOutLeftBig;
+    animation-name: fadeOutLeftBig;
+}
+
+.fadeOutRight {
+    -webkit-animation-name: fadeOutRight;
+    animation-name: fadeOutRight;
+}
+
+.fadeOutRightBig {
+    -webkit-animation-name: fadeOutRightBig;
+    animation-name: fadeOutRightBig;
+}
+
+.fadeOutUp {
+    -webkit-animation-name: fadeOutUp;
+    animation-name: fadeOutUp;
+}
+
+.fadeOutUpBig {
+    -webkit-animation-name: fadeOutUpBig;
+    animation-name: fadeOutUpBig;
+}
+
+.animated.flip {
+    -webkit-backface-visibility: visible;
+    -ms-backface-visibility: visible;
+    backface-visibility: visible;
+    -webkit-animation-name: flip;
+    animation-name: flip;
+}
+
+.flipInX {
+    -webkit-backface-visibility: visible !important;
+    -ms-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipInX;
+    animation-name: flipInX;
+}
+
+.flipInY {
+    -webkit-backface-visibility: visible !important;
+    -ms-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipInY;
+    animation-name: flipInY;
+}
+
+.flipOutX {
+    -webkit-animation-name: flipOutX;
+    animation-name: flipOutX;
+    -webkit-backface-visibility: visible !important;
+    -ms-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+}
+
+.flipOutY {
+    -webkit-backface-visibility: visible !important;
+    -ms-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipOutY;
+    animation-name: flipOutY;
+}
+
+.lightSpeedIn {
+    -webkit-animation-name: lightSpeedIn;
+    animation-name: lightSpeedIn;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+
+.lightSpeedOut {
+    -webkit-animation-name: lightSpeedOut;
+    animation-name: lightSpeedOut;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+}
+
+.rotateIn {
+    -webkit-animation-name: rotateIn;
+    animation-name: rotateIn;
+}
+
+.rotateInDownLeft {
+    -webkit-animation-name: rotateInDownLeft;
+    animation-name: rotateInDownLeft;
+}
+
+.rotateInDownRight {
+    -webkit-animation-name: rotateInDownRight;
+    animation-name: rotateInDownRight;
+}
+
+.rotateInUpLeft {
+    -webkit-animation-name: rotateInUpLeft;
+    animation-name: rotateInUpLeft;
+}
+
+.rotateInUpRight {
+    -webkit-animation-name: rotateInUpRight;
+    animation-name: rotateInUpRight;
+}
+
+.rotateOut {
+    -webkit-animation-name: rotateOut;
+    animation-name: rotateOut;
+}
+
+.rotateOutDownLeft {
+    -webkit-animation-name: rotateOutDownLeft;
+    animation-name: rotateOutDownLeft;
+}
+
+.rotateOutDownRight {
+    -webkit-animation-name: rotateOutDownRight;
+    animation-name: rotateOutDownRight;
+}
+
+.rotateOutUpLeft {
+    -webkit-animation-name: rotateOutUpLeft;
+    animation-name: rotateOutUpLeft;
+}
+
+.rotateOutUpRight {
+    -webkit-animation-name: rotateOutUpRight;
+    animation-name: rotateOutUpRight;
+}
+
+.slideInDown {
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+}
+
+.slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+}
+
+.slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+}
+
+.slideOutLeft {
+    -webkit-animation-name: slideOutLeft;
+    animation-name: slideOutLeft;
+}
+
+.slideOutRight {
+    -webkit-animation-name: slideOutRight;
+    animation-name: slideOutRight;
+}
+
+.slideOutUp {
+    -webkit-animation-name: slideOutUp;
+    animation-name: slideOutUp;
+}
+
+.hinge {
+    -webkit-animation-name: hinge;
+    animation-name: hinge;
+}
+
+.rollIn {
+    -webkit-animation-name: rollIn;
+    animation-name: rollIn;
+}
+
+.rollOut {
+    -webkit-animation-name: rollOut;
+    animation-name: rollOut;
+}
+
+.bannerWrapper {
+    position: relative;
+    height: auto;
+    background: 0 0;
+}
+
+    .bannerWrapper picture img {
+        width: 100%;
+    }
+
+.bannerBurgLogo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+    .bannerBurgLogo .logoBox {
+        display: inline-block;
+    }
+
+    .bannerBurgLogo .logoBoxAxis {
+        display: inline-block;
+        float: right;
+        padding-top: 30px;
+    }
+
+.bannerText {
+    width: 20%;
+    clear: both;
+    margin-top: 0;
+    display: block;
+    position: absolute;
+    right: 15%;
+    top: 226px;
+}
+
+    .bannerText h3 {
+        font-size: 30px;
+        color: #bf9d46;
+        font-family: Graphik-Bold;
+    }
+
+    .bannerText p {
+        text-align: left;
+        padding-bottom: 20px;
+        font-size: 19px;
+        color: #fff;
+        font-family: Graphik-Regular;
+        line-height: 30px;
+    }
+
+        .bannerText p br {
+            display: none;
+        }
+
+    .bannerText.landinBanner {
+        width: 24%;
+        right: 11%;
+        top: 270px;
+    }
+
+        .bannerText.landinBanner p {
+            line-height: 33px;
+            font-size: 23px;
+            font-family: Graphik-Medium;
+        }
+
+        .bannerText.landinBanner br {
+            display: none;
+        }
+
+.wealthPersonalWrap {
+    text-align: center;
+    background: url(../img/BurgundyImg/liveryNew.png) repeat top left #b7b3ac;
+    width: 100%;
+    height: 244px;
+    display: block;
+    position: relative;
+}
+
+.wealthPersonalBox {
+    position: absolute;
+    top: -150px;
+    padding: 40px 100px;
+    width: 85%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+    .wealthPersonalBox h3 {
+        color: #a31d48;
+        font-size: 26px;
+        font-family: Graphik-Medium;
+    }
+
+    .wealthPersonalBox h4 {
+        color: #231f20;
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-family: Graphik-Regular;
+    }
+
+    .wealthPersonalBox p {
+        color: #414042;
+        font-size: 15px;
+        line-height: 27px;
+        font-family: Graphik-Regular;
+        width: 86%;
+        margin: 0 auto;
+        padding: 20px 0 0;
+    }
+
+        .wealthPersonalBox p.burgPara {
+            color: #ae275f;
+            font-size: 15px;
+        }
+
+    .wealthPersonalBox .bordBox {
+        line-height: 8px;
+        margin-top: 16px;
+    }
+
+.callUsBox {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .callUsBox a.haveUsCall {
+        min-width: 160px;
+        padding: 10px 5px;
+        background-color: #9b1c51;
+        display: inline-block;
+        color: #fff;
+        font-size: 16px;
+        font-family: Graphik-Regular;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+.navMblHideBox {
+    height: 60px;
+    /*background: rgba(231, 231, 231, .88);*/
+    background: #e7e7e7;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+    .navMblHideBox ul.navMobHide {
+        font-size: 0;
+        padding: 5px 0;
+    }
+
+        .navMblHideBox ul.navMobHide li {
+            display: inline-block;
+            width: 25%;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+            .navMblHideBox ul.navMobHide li a {
+                color: #302e2f;
+                font-size: 15px;
+                font-family: Graphik-Regular;
+                font-weight: bold;
+                display: inline-block;
+                line-height: 25px;
+            }
+
+                .navMblHideBox ul.navMobHide li a:hover {
+                    color: #ae275f;
+                    text-decoration: none;
+                }
+
+.homeWealthWrap {
+    height: 137px;
+    margin-bottom: 135px;
+}
+
+    .homeWealthWrap .wealthPersonalBox {
+        top: 40px;
+    }
+
+        .homeWealthWrap .wealthPersonalBox h3 {
+            font-size: 20px;
+        }
+
+.wealthLegacy .wealthManagement {
+    position: relative;
+    padding-top: 69px;
+}
+
+    .wealthLegacy .wealthManagement .slideInRight {
+        right: 0;
+    }
+
+    .wealthLegacy .wealthManagement:hover .imgBlock {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        overflow: hidden;
+    }
+
+.wealthLegacy .legacyPlanning {
+    padding: 102px 0;
+}
+
+    .wealthLegacy .legacyPlanning .imgBlock {
+        text-align: right;
+    }
+
+    .wealthLegacy .legacyPlanning .burgwBox {
+        left: 15px;
+        right: unset;
+        text-align: center;
+    }
+
+        .wealthLegacy .legacyPlanning .burgwBox p {
+            padding-left: 40px;
+        }
+
+    .wealthLegacy .legacyPlanning:hover .imgBlock {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+.legacyBlock .burgwBox,
+.wealthBlock .burgwBox {
+    max-width: 489px;
+    max-height: 267px;
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    transition: .7s all linear;
+    right: 0;
+}
+
+.legacyBlock .wealthMngtBox,
+.wealthBlock .wealthMngtBox {
+    box-shadow: 8px 10px 19px 0 rgba(1, 1, 1, .16);
+}
+
+.legacyBlock .legacyBox,
+.wealthBlock .legacyBox {
+    box-shadow: -8px 6px 19px 0 rgba(0, 0, 0, .16);
+}
+
+.legacyBlock .imgBlock,
+.wealthBlock .imgBlock {
+    width: 100%;
+    transition: 1s all linear;
+}
+
+    .legacyBlock .imgBlock img,
+    .wealthBlock .imgBlock img {
+        max-width: 100%;
+    }
+
+.wealthLegacy .legacyBlock a {
+    right: 11%;
+}
+
+.bankingSolution {
+    background: #ededee;
+    padding: 48px 0;
+    font-family: Graphik-Medium;
+}
+
+    .bankingSolution p {
+        text-align: center;
+        font-family: Graphik-Regular;
+        font-size: 16px;
+    }
+
+    .bankingSolution h2 {
+        text-align: center;
+        font-size: 24px;
+        color: #ae275f;
+        line-height: 26px;
+        padding-bottom: 20px;
+        font-family: Graphik-Medium;
+    }
+
+    .bankingSolution .imgBlock {
+        background: url(../img/BurgundyImg/sprites.png);
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .bankingSolution .firstImg {
+        height: 67px;
+        width: 85px;
+        background-position: -34px -32px;
+        margin-bottom: 40px;
+    }
+
+    .bankingSolution .secondImg {
+        background-position: -29px -206px;
+        height: 76px;
+        width: 85px;
+        margin-bottom: 30px;
+    }
+
+    .bankingSolution .businessBankingBlock,
+    .bankingSolution .personalBankingBlock {
+        text-align: center;
+        color: #414042;
+    }
+
+        .bankingSolution .businessBankingBlock h2,
+        .bankingSolution .personalBankingBlock h2 {
+            font-size: 18px;
+            line-height: 20px;
+            color: #414042;
+            padding-bottom: 20px;
+        }
+
+        .bankingSolution .businessBankingBlock p,
+        .bankingSolution .personalBankingBlock p {
+            font-size: 16px;
+            line-height: 23px;
+            max-width: 323px;
+            margin: 0 auto;
+            color: #414042;
+            font-family: Graphik-Regular;
+        }
+
+    .bankingSolution .divider {
+        border-left: 1px solid #939598;
+    }
+
+    .bankingSolution .solutionBox {
+        margin-top: 50px;
+    }
+
+        .bankingSolution .solutionBox .personalBank {
+            margin-left: 15%;
+        }
+
+        .bankingSolution .solutionBox .businesBank {
+            margin-right: 15%;
+        }
+
+.foundation {
+    padding: 100px 0 0;
+    text-align: center;
+}
+
+    .foundation .burgwBox {
+        max-width: 780px;
+        margin: -60px auto 0;
+        position: relative;
+        font-family: Graphik-Regular;
+    }
+
+        .foundation .burgwBox p {
+            font-size: 16px;
+        }
+
+    .foundation .linkdDiv {
+        padding: 98px 0;
+        text-align: center;
+    }
+
+.joinBurgundyWrap {
+    text-align: center;
+    background: url(../img/BurgundyImg/liveryNew.png) repeat top left #b7b3ac;
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding: 47px 0 50px;
+    margin-top: 70px;
+}
+
+    .joinBurgundyWrap .joinBurgundy {
+        text-align: left;
+        margin-left: 60px;
+        margin-top: -12px;
+    }
+
+        .joinBurgundyWrap .joinBurgundy h4 {
+            font-size: 23px;
+            color: #fff;
+            font-family: Graphik-Medium;
+        }
+
+        .joinBurgundyWrap .joinBurgundy h5 {
+            font-size: 16px;
+            color: #414042;
+            /*padding-bottom: 12px;*/
+            font-family: Graphik-Semibold;
+        }
+
+        .joinBurgundyWrap .joinBurgundy ul li {
+            display: inline-block;
+            position: relative;
+            width: 33%;
+        }
+
+            .joinBurgundyWrap .joinBurgundy ul li:first-child {
+                border: none;
+                margin-top: 16px;
+            }
+
+            .joinBurgundyWrap .joinBurgundy ul li:last-child {
+                top: 5px;
+                vertical-align: top;
+            }
+
+            .joinBurgundyWrap .joinBurgundy ul li .txtBox {
+                border-left: 1px solid #991c4d;
+                padding-left: 14px;
+                height: 110px;
+                padding-top: 20px;
+            }
+
+                .joinBurgundyWrap .joinBurgundy ul li .txtBox .subLink, .joinBurgundyWrap .joinBurgundy ul li .subLink {
+                    color: #ae275f;
+                    font-size: 12px;
+                    font-family: Graphik-Semibold;
+                    position: relative;
+                    top: 8px;
+                }
+
+                    .joinBurgundyWrap .joinBurgundy ul li .txtBox .subLink a, .joinBurgundy .subLink a {
+                        color: #ae275f;
+                        text-decoration: none;
+                        cursor: pointer;
+                        display: inline-block;
+                    }
+
+.joinBtn {
+    background-color: #981c50;
+    color: #fff !important;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Graphik-Medium;
+    letter-spacing: 2px;
+}
+
+    .joinBtn:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+.insightsWrapper {
+    padding: 70px 0;
+}
+
+    .insightsWrapper h2 {
+        color: #991c50;
+        font-size: 23px;
+        line-height: 25px;
+        text-align: center;
+        padding-bottom: 28px;
+        font-family: Graphik-Medium;
+    }
+
+    .insightsWrapper .imgBlock {
+        position: relative;
+    }
+
+        .insightsWrapper .imgBlock .insighCont {
+            position: absolute;
+            bottom: 16%;
+            left: 11%;
+            color: #fff;
+        }
+
+            .insightsWrapper .imgBlock .insighCont h3 {
+                font-family: Graphik-Medium;
+                font-size: 23px;
+                line-height: 25px;
+                color: #fff;
+            }
+
+            .insightsWrapper .imgBlock .insighCont p {
+                font-size: 15px;
+                font-family: Graphik-Regular;
+                line-height: 37px;
+            }
+
+                .insightsWrapper .imgBlock .insighCont p.time {
+                    font-size: 10px;
+                    line-height: 12px;
+                    font-family: Graphik-Light;
+                    padding-left: 15px;
+                }
+
+                    .insightsWrapper .imgBlock .insighCont p.time:after {
+                        content: "";
+                        background: url(../img/BurgundyImg/time.png);
+                        width: 11px;
+                        height: 12px;
+                        display: inline-block;
+                        position: absolute;
+                        left: 0;
+                    }
+
+.navMblHideBox.abFoundationWrap ul.navMobHide li {
+    width: 20%;
+    vertical-align: middle;
+    padding: 1px 0;
+}
+
+    .navMblHideBox.abFoundationWrap ul.navMobHide li:first-child a {
+        background: url(../img/BurgundyImg/homeIcon.png) no-repeat;
+        width: 28px;
+        height: 22px;
+        display: inline-block;
+    }
+
+        .navMblHideBox.abFoundationWrap ul.navMobHide li:first-child a:hover {
+            background: url(../img/BurgundyImg/homeIconhover.png) no-repeat;
+            width: 28px;
+            height: 17px;
+            display: inline-block;
+        }
+
+    .navMblHideBox.abFoundationWrap ul.navMobHide li a.active {
+        color: #ae275f;
+    }
+
+.donateKnowmoreWrap .donateKnowBox {
+    width: 85%;
+    margin: 0 auto;
+}
+
+    .donateKnowmoreWrap .donateKnowBox p {
+        text-align: center;
+        padding: 20px 0 0;
+    }
+
+    .donateKnowmoreWrap .donateKnowBox .donatKnowAnchr {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+        .donateKnowmoreWrap .donateKnowBox .donatKnowAnchr a {
+            padding: 0 20px;
+            display: inline-block;
+            line-height: 18px;
+        }
+
+            .donateKnowmoreWrap .donateKnowBox .donatKnowAnchr a:first-child {
+                border-right: 1px solid #ae275f;
+            }
+
+.liveliHoodWrap .liveliBannerBox,
+.liveliHoodWrap ul.liveliHoodBox {
+    max-width: 573px;
+    margin: 0 auto;
+}
+
+.liveliHoodWrap .liveliBannerBox {
+    margin-top: 100px;
+}
+
+.liveliHoodWrap ul.liveliHoodBox {
+    font-size: 0;
+    padding-bottom: 60px;
+}
+
+    .liveliHoodWrap ul.liveliHoodBox li {
+        display: inline-block;
+        width: 25%;
+        vertical-align: top;
+        text-align: center;
+        transition: all .5s linear;
+    }
+
+        .liveliHoodWrap ul.liveliHoodBox li p {
+            font-size: 15px;
+            font-family: Graphik-Semibold;
+            text-align: center;
+            color: #6d6e71;
+            padding-bottom: 10px;
+        }
+
+        .liveliHoodWrap ul.liveliHoodBox li:hover img {
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+            transition: all .5s linear;
+        }
+
+.wealthMngContent {
+    margin-bottom: 105px;
+}
+
+    .wealthMngContent .wealthPersonalBox {
+        padding: 40px 85px;
+    }
+
+        .wealthMngContent .wealthPersonalBox p {
+            padding: 0;
+            width: 100%;
+            color: #414141;
+            line-height: 29px;
+        }
+
+.axisFranchise {
+    padding: 50px 0 0;
+}
+
+    .axisFranchise h2 {
+        font-size: 24px;
+        font-family: Graphik-Semibold;
+        font-weight: 600;
+        color: #991c50;
+    }
+
+    .axisFranchise p {
+        font-size: 19px;
+        color: #414141;
+        font-family: Graphik-Regular;
+        padding-top: 10px;
+    }
+
+    .axisFranchise .imgContentBlock {
+        padding-top: 50px;
+        margin-bottom: 80px;
+    }
+
+        .axisFranchise .imgContentBlock p {
+            color: #414141;
+            font-family: Graphik-Regular;
+            padding-top: 10px;
+            width: 90%;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .axisFranchise .imgContentBlock .links li {
+            display: inline-block;
+            font-family: Graphik-Semibold;
+            font-size: 15px;
+            color: #ac2860;
+            border-left: 1px solid #ac2860;
+            line-height: 1rem;
+            padding: 0 12px;
+        }
+
+            .axisFranchise .imgContentBlock .links li:first-child {
+                border-left: none;
+            }
+
+            .axisFranchise .imgContentBlock .links li a {
+                color: #ac2860;
+            }
+
+.ourApproTabs {
+    text-align: center;
+}
+
+    .ourApproTabs li {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        padding: 0 10px;
+        font-family: 'Graphik-Medium';
+        font-size: 17px;
+        color: #6d6f70;
+        border-bottom: 2px solid #d1c9b7;
+        padding-bottom: .8rem;
+        margin-right: 1rem;
+    }
+
+        .ourApproTabs li br {
+            display: none;
+        }
+
+        .ourApproTabs li:after {
+            content: "";
+            background: url(../img/BurgundyImg/designPattern.png) no-repeat;
+            width: 10px;
+            height: 8px;
+            display: block;
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .ourApproTabs li.current {
+            color: #991c50;
+            position: relative;
+        }
+
+.ourApprtabCont .ourApprCont {
+    display: none;
+}
+
+    .ourApprtabCont .ourApprCont.current {
+        display: block;
+    }
+
+    .ourApprtabCont .ourApprCont p {
+        font-size: 14px;
+        color: #231f20;
+        width: 60%;
+    }
+
+.ourApproach {
+    background: #ebebec;
+    padding: 70px 0;
+}
+
+    .ourApproach h3 {
+        text-align: center;
+        font-family: Graphik-Semibold;
+        font-size: 24px;
+        color: #991c50;
+    }
+
+    .ourApproach h5 {
+        font-size: 19px;
+        color: #414141;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .ourApproach p {
+        text-align: center;
+        color: #414141;
+        font-size: 16px;
+        width: 62%;
+        display: block;
+        margin: 35px auto;
+    }
+
+    .ourApproach img {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .ourApproach .invstResearch1 li {
+        display: inline-block;
+        width: 26%;
+        background: #fff;
+        vertical-align: top;
+        margin: 0 35px;
+        height: 300px;
+        position: relative;
+    }
+
+        .ourApproach .invstResearch1 li h4 {
+            font-family: Graphik-Medium;
+            font-size: 12px;
+            color: #231f20;
+            display: block;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .ourApproach .invstResearch1 li p {
+            font-family: Graphik-Regular;
+            font-size: 13px;
+            color: #231f20;
+            width: 70%;
+            margin: 10px auto;
+        }
+
+        .ourApproach .invstResearch1 li em {
+            background: url(../img/BurgundyImg/sprites.png) no-repeat 0 0;
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+        }
+
+            .ourApproach .invstResearch1 li em.iconBg01 {
+                background-position: 0 -431px;
+                width: 82px;
+                height: 79px;
+            }
+
+            .ourApproach .invstResearch1 li em.iconBg02 {
+                background-position: 0 -681px;
+                width: 73px;
+                height: 79px;
+            }
+
+            .ourApproach .invstResearch1 li em.iconBg03 {
+                background-position: 0 -914px;
+                width: 65px;
+                height: 79px;
+            }
+
+    .ourApproach .invstResearch1 .owl-dots {
+        margin: 0 auto 0;
+        width: 20%;
+        position: relative;
+        top: 15px;
+    }
+
+        .ourApproach .invstResearch1 .owl-dots .owl-dot {
+            display: inline-block;
+        }
+
+            .ourApproach .invstResearch1 .owl-dots .owl-dot span {
+                background: #caccce;
+                width: 6px;
+                height: 6px;
+                margin: 0 5px;
+                display: inline-block;
+                border-radius: 50%;
+            }
+
+            .ourApproach .invstResearch1 .owl-dots .owl-dot.active span {
+                background: #959799;
+            }
+
+.tunedPortfolio {
+    background: #fff;
+    padding: 70px 0 0;
+}
+
+    .tunedPortfolio .container {
+        border-bottom: none;
+    }
+
+    .tunedPortfolio h2 {
+        font-family: Graphik-Semibold;
+        padding-bottom: 10px;
+    }
+
+    .tunedPortfolio p {
+        font-size: 19px;
+    }
+
+    .tunedPortfolio .imgBlock {
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        top: 0;
+    }
+
+    .tunedPortfolio .iconBg1 {
+        height: 95px;
+        width: 85px;
+        background-position: 0 -1140px;
+        margin-bottom: 20px;
+    }
+
+    .tunedPortfolio .iconBg2 {
+        height: 95px;
+        width: 94px;
+        background-position: 0 -1478px;
+        margin-bottom: 20px;
+    }
+
+    .tunedPortfolio .businessBankingBlock,
+    .tunedPortfolio .personalBankingBlock {
+        padding-top: 125px;
+    }
+
+        .tunedPortfolio .businessBankingBlock h2,
+        .tunedPortfolio .personalBankingBlock h2 {
+            font-family: Graphik-Semibold;
+            font-size: 15px;
+            color: #6d6f70;
+            padding-bottom: 10px;
+        }
+
+        .tunedPortfolio .businessBankingBlock p,
+        .tunedPortfolio .personalBankingBlock p {
+            font-size: 13px;
+            color: #221f1f;
+        }
+
+    .tunedPortfolio .personalBankingBlock {
+        padding-right: 10%;
+    }
+
+        .tunedPortfolio .personalBankingBlock h2 {
+            text-align: right;
+        }
+
+        .tunedPortfolio .personalBankingBlock p {
+            text-align: right;
+            max-width: 100%;
+        }
+
+    .tunedPortfolio .businessBankingBlock {
+        padding-left: 10%;
+    }
+
+        .tunedPortfolio .businessBankingBlock h2 {
+            text-align: left;
+        }
+
+        .tunedPortfolio .businessBankingBlock p {
+            text-align: left;
+            max-width: 100%;
+        }
+
+    .tunedPortfolio .solutionBox .personalBank {
+        margin-left: 0;
+        position: relative;
+    }
+
+    .tunedPortfolio .otherServiceLInk {
+        display: inline-block;
+        text-align: center;
+        padding: 45px 0;
+    }
+
+        .tunedPortfolio .otherServiceLInk span {
+            display: inline-block;
+            font-size: 13px;
+            font-family: Graphik-Semibold;
+            color: #6d6f70;
+        }
+
+        .tunedPortfolio .otherServiceLInk ul {
+            display: inline-block;
+        }
+
+            .tunedPortfolio .otherServiceLInk ul li {
+                display: inline-block;
+                font-size: 13px;
+                font-family: Graphik-Regular;
+                padding: 0 10px;
+                border-left: 1px solid #ac2860;
+                line-height: 12px;
+            }
+
+                .tunedPortfolio .otherServiceLInk ul li:first-child {
+                    border-left: none;
+                }
+
+                .tunedPortfolio .otherServiceLInk ul li a {
+                    color: #221f1f;
+                }
+
+.wealthJoinBurgundy {
+    margin-top: 0;
+}
+
+.legacyPlanning .wealthPersonalBox {
+    padding: 40px 85px;
+}
+
+    .legacyPlanning .wealthPersonalBox p {
+        width: 100%;
+        padding: 0;
+    }
+
+.legacyPlanning .joinBurgundyWrap {
+    margin-top: 0;
+}
+
+.legacyPlanning .wealthManagement {
+    padding-top: 0;
+}
+
+.legacyCont {
+    padding: 0;
+    height: 110px;
+    margin-bottom: 190px;
+}
+
+    .legacyCont .wealthPersonalBox {
+        padding: 30px 85px;
+    }
+
+        .legacyCont .wealthPersonalBox p {
+            width: 66%;
+        }
+
+.legacyBox .legacyPlanning .burgwBox p {
+    padding-left: 0;
+}
+
+.premiumCards h4 {
+    margin: 0;
+}
+
+.bankingSolution.tunedPortfolio.burgundyDigital .container {
+    border: none;
+}
+
+.wrapper-content {
+    padding-bottom: 0;
+}
+
+@media only screen and (min-width:1199px) and (max-width:1400px) {
+    .bannerText {
+        width: 30%;
+        clear: both;
+        right: 4%;
+        top: 139px;
+    }
+
+        .bannerText.landinBanner {
+            width: 32%;
+            right: 5%;
+            top: 181px;
+        }
+}
+
+@media only screen and (max-width:1199px) {
+    .bannerBurgLogo .logoBox {
+        width: 148px;
+        height: auto;
+    }
+
+    .bannerBurgLogo .logoBoxAxis {
+        width: 148px;
+        height: auto;
+    }
+
+    .bannerText {
+        width: 33%;
+        right: 1%;
+        top: 124px;
+    }
+
+        .bannerText h3 {
+            font-size: 23px;
+            text-align: left;
+        }
+
+        .bannerText p {
+            font-size: 18px;
+            text-align: left;
+        }
+
+        .bannerText.landinBanner {
+            width: 28%;
+            right: 7%;
+            top: 98px;
+        }
+
+            .bannerText.landinBanner p {
+                line-height: 25px;
+                font-size: 18px;
+            }
+
+    .premiumCards .ourApproTabs li {
+        padding: 0 5px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .navMblHideBox.abFoundationWrap ul.navMobHide li {
+        width: 22%;
+    }
+
+        .navMblHideBox.abFoundationWrap ul.navMobHide li:first-child {
+            width: 10%;
+        }
+}
+
+@media only screen and (max-width:991px) {
+    .footerMainUl li.col {
+        width: 100%;
+    }
+
+    .footerMainUl .othLnk {
+        padding-left: 0;
+    }
+
+    .copyright {
+        display: block;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    ul.cpDiscMap {
+        display: block;
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .wealthPersonalBox {
+        top: -90px;
+        width: 90%;
+        padding: 40px;
+    }
+
+        .wealthPersonalBox h3 {
+            font-size: 15px;
+        }
+
+        .wealthPersonalBox p {
+            width: 100%;
+        }
+
+    .navMblHideBox {
+        display: block;
+    }
+
+    .homeWealthWrap .wealthPersonalBox {
+        top: 35px;
+    }
+
+    .wealthLegacy .wealthManagement .slideInRight {
+        position: relative;
+        margin-top: -16%;
+        left: 8%;
+        text-align: center;
+    }
+
+    .wealthLegacy .legacyPlanning .imgBlock {
+        text-align: center;
+    }
+
+    .wealthLegacy .legacyPlanning .burgwBox {
+        left: 11%;
+    }
+
+        .wealthLegacy .legacyPlanning .burgwBox p {
+            padding-left: 0;
+        }
+
+    .legacyBlock .burgwBox,
+    .wealthBlock .burgwBox {
+        position: relative;
+        margin-top: -16%;
+        left: 14%;
+        text-align: center;
+    }
+
+    .legacyBlock .imgBlock,
+    .wealthBlock .imgBlock {
+        text-align: center;
+    }
+
+    .foundation .burgwBox {
+        max-width: 90%;
+    }
+
+    .foundation .linkdDiv {
+        padding: 50px 0;
+    }
+
+    .wealthMngContent {
+        margin-bottom: 200px;
+    }
+
+    .axisFranchise .imgContentBlock {
+        padding-top: 35px;
+    }
+
+        .axisFranchise .imgContentBlock p {
+            width: 100%;
+        }
+
+    .axisFranchise .burgwBox {
+        max-width: 95%;
+    }
+
+    .ourApprtabCont .ourApprCont p {
+        width: 100%;
+    }
+
+    .ourApproach p {
+        width: 100%;
+    }
+
+    .ourApproach .invstResearch1 li {
+        margin: 0 24px;
+        height: 340px;
+    }
+
+        .ourApproach .invstResearch1 li p {
+            width: 95%;
+        }
+
+    .legacyCont .wealthPersonalBox {
+        padding: 30px 10px;
+    }
+
+        .legacyCont .wealthPersonalBox p {
+            width: 100%;
+        }
+
+    .premiumCards .approachBox.approchBoxTop .ourApproTabs li:after {
+        width: 220px;
+    }
+
+    .premiumCards p {
+        width: 100%;
+    }
+
+    .businessBanking p {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .navMblHideBox {
+        display: block;
+    }
+
+        .navMblHideBox.abFoundationWrap ul.navMobHide li:first-child a {
+            background: none;
+            width: 100%;
+            text-transform: uppercase;
+        }
+
+    .navMblHideBox {
+        text-align: center;
+        background: url(../img/BurgundyImg/liveryNew.png) repeat top left #b7b3ac;
+        width: 100%;
+        height: auto;
+        display: block;
+        position: relative;
+    }
+
+        .navMblHideBox ul.navMobHide {
+            padding: 5px 0;
+            display: block;
+            position: relative;
+            background: white;
+            margin: 20px;
+            height: auto;
+        }
+
+        .navMblHideBox.abFoundationWrap ul.navMobHide li {
+            border-bottom: 1px solid #b3b5b5;
+            width: 100%;
+            padding: 5px 0;
+        }
+
+            .navMblHideBox.abFoundationWrap ul.navMobHide li a br {
+                display: none;
+            }
+
+        .navMblHideBox ul.navMobHide li a {
+            font-size: 13px;
+        }
+
+        .navMblHideBox.abFoundationWrap ul.navMobHide li:last-child {
+            border-bottom: none;
+        }
+
+        .navMblHideBox.abFoundationWrap ul.navMobHide li:first-child {
+            border-bottom: none;
+            border-bottom: none;
+            position: static;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .burgwBox h3 {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    .burgwBox p {
+        font-size: 12px;
+        line-height: 17px;
+        padding: 20px 0 0;
+    }
+
+    a.expleAnchDef {
+        font-size: 12px;
+    }
+
+    header .logoBox img {
+        width: 100%;
+        height: 100%;
+    }
+
+    header .logoBox {
+        width: 106px;
+        height: 90px;
+    }
+
+    /*.footerUpSec {
+        padding: 0;
+        background-color: #ae275f;
+    }
+
+        .footerUpSec .container {
+            padding: 0;
+        }
+
+    .footerMainUl {
+        padding-bottom: 0;
+    }
+
+        .footerMainUl h3.head {
+            border-bottom: 1px solid #fff;
+        }
+
+        .footerMainUl li p {
+            color: #505050;
+        }
+
+            .footerMainUl li p:before {
+                content: "";
+                background: #505050;
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                position: absolute;
+                top: 20px;
+                left: -11px;
+            }
+
+        .footerMainUl li a:after {
+            content: "";
+            background: #505050;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            position: absolute;
+            top: 2px;
+            left: -18px;
+        }
+
+        .footerMainUl li.col ul.socialLinks {
+            padding-left: 15px;
+        }
+
+            .footerMainUl li.col ul.socialLinks li {
+                margin: 0;
+                padding-top: 0;
+            }
+
+        .footerMainUl li.col {
+            width: 100%;
+            display: block;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+
+            .footerMainUl li.col:last-child h3 {
+                border-bottom: none;
+            }
+
+            .footerMainUl li.col ul {
+                display: none;
+                background: #eaebed;
+                padding-left: 0;
+            }
+
+                .footerMainUl li.col ul.socialLinks {
+                    display: block;
+                    background: 0 0;
+                }
+
+                .footerMainUl li.col ul li {
+                    margin: 0 45px;
+                    padding-top: 5px;
+                }
+
+                    .footerMainUl li.col ul li a {
+                        color: #505050;
+                    }*/
+
+    /*.selectDropd {
+        width: 210px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+        .selectDropd select {
+            margin-bottom: 0;
+            width: 190px;
+            margin-left: 15px;
+        }
+
+    .socialLinks {
+        display: block;
+        padding-left: 15px;
+    }
+
+    .footerMainUl h3,
+    .middleFooterCon h3 {
+        padding: 15px;
+        cursor: pointer;
+    }
+
+    .footerMainUl p,
+    .middleFooterCon p {
+        color: #fff;
+        padding: 10px 15px;
+    }
+
+    .footerMainUl .fScheme,
+    .middleFooterCon .fScheme {
+        padding-bottom: 10px;
+    }
+
+    .footerMainUl a,
+    .middleFooterCon a {
+        color: #fff;
+    }*/
+
+    /*.js-accordMob:after {
+        content: "";
+        border: solid #fff;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        position: absolute;
+        right: 20px;
+    }
+
+    .middleFooterCon {
+        padding: 0;
+    }
+
+        .middleFooterCon li {
+            padding-bottom: 0;
+        }
+
+        .middleFooterCon h3 {
+            display: inline-block;
+            padding: 0;
+        }
+
+        .middleFooterCon .links {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+            .middleFooterCon .links a {
+                display: inline;
+                font-size: 13px;
+                line-height: 23px;
+            }
+
+        .middleFooterCon p {
+            color: #fff;
+            padding-left: 15px;
+        }*/
+
+    
+    
+    ul.cpDiscMap li {
+        font-size: 1rem;
+        display: inline-block;
+        text-align: left;
+    }
+   
+
+        ul.cpDiscMap li a {
+            border-right: 1px solid #767676;
+        }
+         ul.cpDiscMap li:last-child a{
+            border-right: none;
+        }
+
+    .back-to-top {
+        width: 33px;
+        height: 36px;
+        right: 20px;
+    }
+
+        .back-to-top .icon-drop {
+            font-size: 13px;
+            top: 5px;
+        }
+
+    .bannerBurgLogo {
+        position: static;
+    }
+
+        .bannerBurgLogo .logoBox {
+            position: absolute;
+            top: 0;
+        }
+
+        .bannerBurgLogo .logoBoxAxis {
+            top: 14px;
+            width: 100px;
+            right: 5%;
+            position: absolute;
+        }
+
+    .bannerText {
+        width: 100%;
+        top: unset;
+        bottom: 10px;
+        left: 50%;
+        right: unset;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+        .bannerText h3 {
+            font-size: 19px;
+            text-align: center;
+            font-family: Graphik-Semibold;
+        }
+
+        .bannerText p {
+            font-size: 13px;
+            font-family: Graphik-Regular;
+            padding-bottom: 16px;
+            line-height: 21px;
+            text-align: center;
+        }
+
+            .bannerText p br {
+                display: block;
+            }
+
+        .bannerText.landinBanner {
+            width: auto;
+            right: -41px;
+            top: unset;
+            left: unset;
+            bottom: 59px;
+        }
+
+            .bannerText.landinBanner p {
+                font-size: 16px;
+                line-height: 23px;
+                text-align: left;
+            }
+
+            .bannerText.landinBanner br {
+                display: block;
+            }
+
+    .wealthPersonalWrap {
+        height: 297px;
+    }
+
+    .wealthPersonalBox h3 {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    .wealthPersonalBox h4 {
+        font-size: 12px;
+        font-family: Graphik-Light;
+    }
+
+    .wealthPersonalBox p.burgPara {
+        font-size: 10px;
+    }
+
+    .wealthPersonalBox p {
+        font-size: 10px;
+        line-height: 17px;
+        font-family: Graphik-Regular;
+    }
+
+    .wealthPersonalBox {
+        padding: 20px 30px 40px;
+        top: -65px;
+    }
+
+    .callUsBox a.haveUsCall {
+        min-width: 140px;
+        padding: 5px 3px;
+        font-size: 14px;
+    }
+
+    .homeWealthWrap {
+        height: 137px;
+        margin-bottom: 135px;
+    }
+
+        .homeWealthWrap .wealthPersonalBox h3 {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+    .wealthLegacy .wealthManagement {
+        padding-top: 30px;
+    }
+
+        .wealthLegacy .wealthManagement .slideInRight {
+            left: auto;
+        }
+
+    .wealthLegacy .legacyPlanning {
+        padding: 52px 0;
+    }
+
+        .wealthLegacy .legacyPlanning .burgwBox {
+            left: 0;
+        }
+
+    .legacyBlock .burgwBox,
+    .wealthBlock .burgwBox {
+        max-height: none;
+        max-width: 90%;
+        margin: auto;
+        margin-top: -44px;
+        display: block;
+        position: relative;
+        left: 0;
+        right: 0;
+        text-align: center;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+        padding: 20px 36px;
+    }
+
+    .legacyBlock,
+    .wealthBlock {
+        position: relative;
+        max-width: 590px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .bankingSolution p {
+        font-size: 12px;
+    }
+
+    .bankingSolution h2 {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    .bankingSolution .secondImg {
+        margin-top: 30px;
+    }
+
+    .bankingSolution .businessBankingBlock,
+    .bankingSolution .personalBankingBlock {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+        .bankingSolution .businessBankingBlock h2,
+        .bankingSolution .personalBankingBlock h2 {
+            font-size: 12px;
+            line-height: 14px;
+        }
+
+        .bankingSolution .businessBankingBlock p,
+        .bankingSolution .personalBankingBlock p {
+            font-size: 10px;
+            line-height: 13px;
+        }
+
+    .bankingSolution .divider {
+        border-left: none;
+    }
+
+    .bankingSolution .solutionBox {
+        margin-top: 0;
+    }
+
+        .bankingSolution .solutionBox .personalBank {
+            margin-left: 0;
+        }
+
+        .bankingSolution .solutionBox .businesBank {
+            margin-right: 0;
+        }
+
+    .foundation {
+        padding-top: 50px;
+        padding-bottom: 48px;
+    }
+
+        .foundation .imgBlock img {
+            width: 100%;
+            height: auto;
+        }
+
+    .premiumCards .imgBlock {
+        width: 100%;
+        transition: 1.0s all linear;
+    }
+
+    .foundation .burgwBox p {
+        font-size: 10px;
+    }
+
+    .foundation .burgwBox {
+        margin: -30px auto 0;
+        max-width: 90%;
+        padding: 20px 36px;
+    }
+
+    .foundation .linkdDiv {
+        padding: 0;
+        padding-top: 48px;
+        font-size: 13px;
+    }
+
+    .joinBurgundyWrap {
+        padding: 23px 20px 20px;
+        margin-top: 0;
+        height: auto;
+    }
+
+        .joinBurgundyWrap .joinBurgundy {
+            margin: 0 30px;
+        }
+
+            .joinBurgundyWrap .joinBurgundy h4 {
+                font-size: 16px;
+            }
+
+            .joinBurgundyWrap .joinBurgundy h5 {
+                padding-bottom: 0;
+            }
+
+            .joinBurgundyWrap .joinBurgundy ul li:last-child {
+                top: 0;
+                margin-top: 20px;
+                padding-left: 15px;
+                height: 69px;
+            }
+
+            .joinBurgundyWrap .joinBurgundy ul li {
+                clear: both;
+                display: block;
+                width: 100%;
+                border-top: 1px solid #991c4d;
+                top: 0;
+                text-align: center;
+            }
+
+                .joinBurgundyWrap .joinBurgundy ul li h5 {
+                    font-size: 14px;
+                }
+
+                .joinBurgundyWrap .joinBurgundy ul li .txtBox {
+                    height: 50px;
+                    font-size: 12px;
+                }
+
+                .joinBurgundyWrap .joinBurgundy ul li .txtBox {
+                    border-left: none;
+                    padding-left: 0;
+                }
+
+                    .joinBurgundyWrap .joinBurgundy ul li .txtBox .subLink {
+                        font-size: 14px;
+                    }
+
+    .joinBtn {
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+        padding: 8px 20px;
+    }
+
+    .insightsWrapper {
+        padding: 40px 0;
+    }
+
+        .insightsWrapper h2 {
+            font-size: 15px;
+            line-height: 17px;
+        }
+
+        .insightsWrapper .imgBlock img {
+            width: 100%;
+            padding-bottom: 20px;
+        }
+
+        .insightsWrapper .imgBlock .insighCont {
+            bottom: 30%;
+        }
+
+            .insightsWrapper .imgBlock .insighCont h3 {
+                font-size: 15px;
+                line-height: 30px;
+            }
+
+            .insightsWrapper .imgBlock .insighCont p {
+                font-size: 9px;
+                line-height: 10px;
+            }
+
+                .insightsWrapper .imgBlock .insighCont p.time {
+                    font-size: 7px;
+                    line-height: 20px;
+                }
+
+                    .insightsWrapper .imgBlock .insighCont p.time:after {
+                        top: 44px;
+                    }
+
+    .abFoundationWrap.wealthPersonalBox {
+        padding: 25px 26px 44px;
+    }
+
+    .donateKnowmoreWrap .donateKnowBox p {
+        font-size: 13px;
+        padding: 0;
+        padding-bottom: 28px;
+    }
+
+    .donateKnowmoreWrap .donateKnowBox .donatKnowAnchr {
+        margin-top: 0;
+    }
+
+    .donateKnowmoreWrap .donateKnowBox {
+        padding: 30px 24px 40px;
+    }
+
+    .donateKnowmoreWrap {
+        margin-bottom: 30px;
+    }
+
+    .liveliHoodWrap .liveliBannerBox,
+    .liveliHoodWrap ul.liveliHoodBox {
+        max-width: 100%;
+    }
+
+    .liveliHoodWrap .liveliBannerBox {
+        margin-top: 40px;
+    }
+
+    .liveliHoodWrap ul.liveliHoodBox li {
+        width: 100%;
+    }
+
+    .liveliHoodWrap ul.liveliHoodBox {
+        padding-bottom: 70px;
+    }
+
+    .wealthMngContent .wealthPersonalBox {
+        padding: 20px 13px;
+    }
+
+        .wealthMngContent .wealthPersonalBox p {
+            line-height: 23px;
+            width: 100%;
+        }
+
+    .axisFranchise {
+        padding: 20px 0 0 0;
+    }
+
+        .axisFranchise h2 {
+            font-size: 15px;
+        }
+
+        .axisFranchise p {
+            font-size: 11px;
+            padding-top: 5px;
+        }
+
+        .axisFranchise .imgContentBlock {
+            padding-top: 20px;
+        }
+
+            .axisFranchise .imgContentBlock .links li {
+                font-size: 11px;
+            }
+
+                .axisFranchise .imgContentBlock .links li:nth-child(3n) {
+                    border-left: none;
+                }
+
+        .axisFranchise .burgwBox {
+            padding: 20px 10px;
+        }
+
+    .ourApproTabs {
+        border-bottom: 2px solid #d1c9b7;
+        padding-bottom: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+        .ourApproTabs li br {
+            display: block;
+        }
+
+        .ourApproTabs li.current:after {
+            content: "";
+            background: url(../img/BurgundyImg/designPattern.png) no-repeat 0 0;
+            display: inline-block;
+            width: 14px;
+            height: 8px;
+            position: absolute;
+            bottom: -14px;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+        }
+
+        .ourApproTabs li {
+            font-size: 12px;
+            padding: 0 30px;
+            line-height: 16px;
+        }
+
+            .ourApproTabs li:after {
+                display: none;
+            }
+
+    .ourApprtabCont .ourApprCont p {
+        widows: 92%;
+        font-size: 11px;
+    }
+
+    .ourApproach {
+        padding: 40px 0;
+    }
+
+        .ourApproach .approachBox {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+        .ourApproach h3 {
+            font-size: 15px;
+        }
+
+        .ourApproach h5 {
+            font-size: 11px;
+            width: 55%;
+            margin: 0 auto;
+            line-height: 21px;
+            font-family: Graphik-Semibold;
+        }
+
+        .ourApproach p {
+            font-size: 11px;
+            margin: 20px auto;
+            line-height: 20px;
+        }
+
+        .ourApproach .invstResearch1 li {
+            width: auto;
+            height: 295px;
+            margin: 0;
+        }
+
+    .tunedPortfolio {
+        padding: 40px 0 0;
+    }
+
+        .tunedPortfolio .businessBankingBlock,
+        .tunedPortfolio .personalBankingBlock {
+            padding: 125px 20px 0 20px;
+        }
+
+            .tunedPortfolio .personalBankingBlock h2 {
+                text-align: center;
+            }
+
+            .tunedPortfolio .personalBankingBlock p {
+                text-align: center;
+            }
+
+            .tunedPortfolio .businessBankingBlock h2 {
+                text-align: center;
+            }
+
+            .tunedPortfolio .businessBankingBlock p {
+                text-align: center;
+            }
+
+        .tunedPortfolio .solutionBox .personalBank {
+            padding-bottom: 30px;
+        }
+
+        .tunedPortfolio .otherServiceLInk {
+            padding: 0 0 28px;
+        }
+
+            .tunedPortfolio .otherServiceLInk ul li {
+                line-height: 10px;
+                font-size: 11px;
+                padding: 0 4px;
+            }
+
+    .legacyCont {
+        margin-bottom: 45px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .copyright {
+        font-size: 14px;
+    }
+
+    ul.cpDiscMap li a {
+        padding: 0 5px;
+    }
+
+    .bannerText.landinBanner p {
+        font-size: 12px;
+        line-height: 23px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .homeWealthWrap .wealthPersonalBox {
+        top: 30px;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes bounce {
+    0%, 100%, 20%, 50%, 80% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+
+    60% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes bounce {
+    0%, 100%, 20%, 50%, 80% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+
+    60% {
+        -webkit-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+@-webkit-keyframes flash {
+    0%, 100%, 50% {
+        opacity: 1;
+    }
+
+    25%, 75% {
+        opacity: 0;
+    }
+}
+
+@keyframes flash {
+    0%, 100%, 50% {
+        opacity: 1;
+    }
+
+    25%, 75% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes shake {
+    0%, 100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    10%, 30%, 50%, 70%, 90% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    20%, 40%, 60%, 80% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+}
+
+@keyframes shake {
+    0%, 100% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    10%, 30%, 50%, 70%, 90% {
+        -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    20%, 40%, 60%, 80% {
+        -webkit-transform: translateX(10px);
+        -ms-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+}
+
+@-webkit-keyframes swing {
+    20% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+
+    40% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+
+    60% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+
+    80% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+}
+
+@keyframes swing {
+    20% {
+        -webkit-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+
+    40% {
+        -webkit-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+
+    60% {
+        -webkit-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+
+    80% {
+        -webkit-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+    }
+}
+
+@-webkit-keyframes tada {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    10%, 20% {
+        -webkit-transform: scale(.9) rotate(-3deg);
+        transform: scale(.9) rotate(-3deg);
+    }
+
+    30%, 50%, 70%, 90% {
+        -webkit-transform: scale(1.1) rotate(3deg);
+        transform: scale(1.1) rotate(3deg);
+    }
+
+    40%, 60%, 80% {
+        -webkit-transform: scale(1.1) rotate(-3deg);
+        transform: scale(1.1) rotate(-3deg);
+    }
+
+    100% {
+        -webkit-transform: scale(1) rotate(0);
+        transform: scale(1) rotate(0);
+    }
+}
+
+@keyframes tada {
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    10%, 20% {
+        -webkit-transform: scale(.9) rotate(-3deg);
+        -ms-transform: scale(.9) rotate(-3deg);
+        transform: scale(.9) rotate(-3deg);
+    }
+
+    30%, 50%, 70%, 90% {
+        -webkit-transform: scale(1.1) rotate(3deg);
+        -ms-transform: scale(1.1) rotate(3deg);
+        transform: scale(1.1) rotate(3deg);
+    }
+
+    40%, 60%, 80% {
+        -webkit-transform: scale(1.1) rotate(-3deg);
+        -ms-transform: scale(1.1) rotate(-3deg);
+        transform: scale(1.1) rotate(-3deg);
+    }
+
+    100% {
+        -webkit-transform: scale(1) rotate(0);
+        -ms-transform: scale(1) rotate(0);
+        transform: scale(1) rotate(0);
+    }
+}
+
+@-webkit-keyframes wobble {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    15% {
+        -webkit-transform: translateX(-25%) rotate(-5deg);
+        transform: translateX(-25%) rotate(-5deg);
+    }
+
+    30% {
+        -webkit-transform: translateX(20%) rotate(3deg);
+        transform: translateX(20%) rotate(3deg);
+    }
+
+    45% {
+        -webkit-transform: translateX(-15%) rotate(-3deg);
+        transform: translateX(-15%) rotate(-3deg);
+    }
+
+    60% {
+        -webkit-transform: translateX(10%) rotate(2deg);
+        transform: translateX(10%) rotate(2deg);
+    }
+
+    75% {
+        -webkit-transform: translateX(-5%) rotate(-1deg);
+        transform: translateX(-5%) rotate(-1deg);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes wobble {
+    0% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    15% {
+        -webkit-transform: translateX(-25%) rotate(-5deg);
+        -ms-transform: translateX(-25%) rotate(-5deg);
+        transform: translateX(-25%) rotate(-5deg);
+    }
+
+    30% {
+        -webkit-transform: translateX(20%) rotate(3deg);
+        -ms-transform: translateX(20%) rotate(3deg);
+        transform: translateX(20%) rotate(3deg);
+    }
+
+    45% {
+        -webkit-transform: translateX(-15%) rotate(-3deg);
+        -ms-transform: translateX(-15%) rotate(-3deg);
+        transform: translateX(-15%) rotate(-3deg);
+    }
+
+    60% {
+        -webkit-transform: translateX(10%) rotate(2deg);
+        -ms-transform: translateX(10%) rotate(2deg);
+        transform: translateX(10%) rotate(2deg);
+    }
+
+    75% {
+        -webkit-transform: translateX(-5%) rotate(-1deg);
+        -ms-transform: translateX(-5%) rotate(-1deg);
+        transform: translateX(-5%) rotate(-1deg);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes bounceIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.3);
+        transform: scale(.3);
+    }
+
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    70% {
+        -webkit-transform: scale(.9);
+        transform: scale(.9);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.3);
+        -ms-transform: scale(.3);
+        transform: scale(.3);
+    }
+
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    70% {
+        -webkit-transform: scale(.9);
+        -ms-transform: scale(.9);
+        transform: scale(.9);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes bounceInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-2000px);
+        transform: translateY(-2000px);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translateY(30px);
+        transform: translateY(30px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-2000px);
+        -ms-transform: translateY(-2000px);
+        transform: translateY(-2000px);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translateY(30px);
+        -ms-transform: translateY(30px);
+        transform: translateY(30px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+        transform: translateX(-2000px);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translateX(30px);
+        transform: translateX(30px);
+    }
+
+    80% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+        -ms-transform: translateX(-2000px);
+        transform: translateX(-2000px);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translateX(30px);
+        -ms-transform: translateX(30px);
+        transform: translateX(30px);
+    }
+
+    80% {
+        -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(2000px);
+        transform: translateX(2000px);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translateX(-30px);
+        transform: translateX(-30px);
+    }
+
+    80% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(2000px);
+        -ms-transform: translateX(2000px);
+        transform: translateX(2000px);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translateX(-30px);
+        -ms-transform: translateX(-30px);
+        transform: translateX(-30px);
+    }
+
+    80% {
+        -webkit-transform: translateX(10px);
+        -ms-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes bounceInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(2000px);
+        transform: translateY(2000px);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+
+    80% {
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(2000px);
+        -ms-transform: translateY(2000px);
+        transform: translateY(2000px);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+
+    80% {
+        -webkit-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes bounceOut {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    25% {
+        -webkit-transform: scale(.95);
+        transform: scale(.95);
+    }
+
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(.3);
+        transform: scale(.3);
+    }
+}
+
+@keyframes bounceOut {
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    25% {
+        -webkit-transform: scale(.95);
+        -ms-transform: scale(.95);
+        transform: scale(.95);
+    }
+
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(.3);
+        -ms-transform: scale(.3);
+        transform: scale(.3);
+    }
+}
+
+@-webkit-keyframes bounceOutDown {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    20% {
+        opacity: 1;
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(2000px);
+        transform: translateY(2000px);
+    }
+}
+
+@keyframes bounceOutDown {
+    0% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    20% {
+        opacity: 1;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(2000px);
+        -ms-transform: translateY(2000px);
+        transform: translateY(2000px);
+    }
+}
+
+@-webkit-keyframes bounceOutLeft {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    20% {
+        opacity: 1;
+        -webkit-transform: translateX(20px);
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+        transform: translateX(-2000px);
+    }
+}
+
+@keyframes bounceOutLeft {
+    0% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    20% {
+        opacity: 1;
+        -webkit-transform: translateX(20px);
+        -ms-transform: translateX(20px);
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+        -ms-transform: translateX(-2000px);
+        transform: translateX(-2000px);
+    }
+}
+
+@-webkit-keyframes bounceOutRight {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    20% {
+        opacity: 1;
+        -webkit-transform: translateX(-20px);
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(2000px);
+        transform: translateX(2000px);
+    }
+}
+
+@keyframes bounceOutRight {
+    0% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    20% {
+        opacity: 1;
+        -webkit-transform: translateX(-20px);
+        -ms-transform: translateX(-20px);
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(2000px);
+        -ms-transform: translateX(2000px);
+        transform: translateX(2000px);
+    }
+}
+
+@-webkit-keyframes bounceOutUp {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    20% {
+        opacity: 1;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-2000px);
+        transform: translateY(-2000px);
+    }
+}
+
+@keyframes bounceOutUp {
+    0% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    20% {
+        opacity: 1;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-2000px);
+        -ms-transform: translateY(-2000px);
+        transform: translateY(-2000px);
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes fadeInDownBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-2000px);
+        transform: translateY(-2000px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDownBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-2000px);
+        -ms-transform: translateY(-2000px);
+        transform: translateY(-2000px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-20px);
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-20px);
+        -ms-transform: translateX(-20px);
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes fadeInLeftBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+        transform: translateX(-2000px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInLeftBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+        -ms-transform: translateX(-2000px);
+        transform: translateX(-2000px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(20px);
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(20px);
+        -ms-transform: translateX(20px);
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes fadeInRightBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(2000px);
+        transform: translateX(2000px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRightBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(2000px);
+        -ms-transform: translateX(2000px);
+        transform: translateX(2000px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes fadeInUpBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(2000px);
+        transform: translateY(2000px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUpBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(2000px);
+        -ms-transform: translateY(2000px);
+        transform: translateY(2000px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadeOutDown {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+}
+
+@keyframes fadeOutDown {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+}
+
+@-webkit-keyframes fadeOutDownBig {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(2000px);
+        transform: translateY(2000px);
+    }
+}
+
+@keyframes fadeOutDownBig {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(2000px);
+        -ms-transform: translateY(2000px);
+        transform: translateY(2000px);
+    }
+}
+
+@-webkit-keyframes fadeOutLeft {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(-20px);
+        transform: translateX(-20px);
+    }
+}
+
+@keyframes fadeOutLeft {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(-20px);
+        -ms-transform: translateX(-20px);
+        transform: translateX(-20px);
+    }
+}
+
+@-webkit-keyframes fadeOutLeftBig {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+        transform: translateX(-2000px);
+    }
+}
+
+@keyframes fadeOutLeftBig {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+        -ms-transform: translateX(-2000px);
+        transform: translateX(-2000px);
+    }
+}
+
+@-webkit-keyframes fadeOutRight {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(20px);
+        transform: translateX(20px);
+    }
+}
+
+@keyframes fadeOutRight {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(20px);
+        -ms-transform: translateX(20px);
+        transform: translateX(20px);
+    }
+}
+
+@-webkit-keyframes fadeOutRightBig {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(2000px);
+        transform: translateX(2000px);
+    }
+}
+
+@keyframes fadeOutRightBig {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(2000px);
+        -ms-transform: translateX(2000px);
+        transform: translateX(2000px);
+    }
+}
+
+@-webkit-keyframes fadeOutUp {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes fadeOutUp {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+}
+
+@-webkit-keyframes fadeOutUpBig {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-2000px);
+        transform: translateY(-2000px);
+    }
+}
+
+@keyframes fadeOutUpBig {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-2000px);
+        -ms-transform: translateY(-2000px);
+        transform: translateY(-2000px);
+    }
+}
+
+@-webkit-keyframes flip {
+    0% {
+        -webkit-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+        transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+        transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    50% {
+        -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+        transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
+        transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+        transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+}
+
+@keyframes flip {
+    0% {
+        -webkit-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+        -ms-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+        transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+        -ms-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+        transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    50% {
+        -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+        -ms-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+        transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
+        -ms-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
+        transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+        -ms-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+        transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+}
+
+@-webkit-keyframes flipInX {
+    0% {
+        -webkit-transform: perspective(400px) rotateX(90deg);
+        transform: perspective(400px) rotateX(90deg);
+        opacity: 0;
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotateX(-10deg);
+        transform: perspective(400px) rotateX(-10deg);
+    }
+
+    70% {
+        -webkit-transform: perspective(400px) rotateX(10deg);
+        transform: perspective(400px) rotateX(10deg);
+    }
+
+    100% {
+        -webkit-transform: perspective(400px) rotateX(0);
+        transform: perspective(400px) rotateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes flipInX {
+    0% {
+        -webkit-transform: perspective(400px) rotateX(90deg);
+        -ms-transform: perspective(400px) rotateX(90deg);
+        transform: perspective(400px) rotateX(90deg);
+        opacity: 0;
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotateX(-10deg);
+        -ms-transform: perspective(400px) rotateX(-10deg);
+        transform: perspective(400px) rotateX(-10deg);
+    }
+
+    70% {
+        -webkit-transform: perspective(400px) rotateX(10deg);
+        -ms-transform: perspective(400px) rotateX(10deg);
+        transform: perspective(400px) rotateX(10deg);
+    }
+
+    100% {
+        -webkit-transform: perspective(400px) rotateX(0);
+        -ms-transform: perspective(400px) rotateX(0);
+        transform: perspective(400px) rotateX(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes flipInY {
+    0% {
+        -webkit-transform: perspective(400px) rotateY(90deg);
+        transform: perspective(400px) rotateY(90deg);
+        opacity: 0;
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotateY(-10deg);
+        transform: perspective(400px) rotateY(-10deg);
+    }
+
+    70% {
+        -webkit-transform: perspective(400px) rotateY(10deg);
+        transform: perspective(400px) rotateY(10deg);
+    }
+
+    100% {
+        -webkit-transform: perspective(400px) rotateY(0);
+        transform: perspective(400px) rotateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes flipInY {
+    0% {
+        -webkit-transform: perspective(400px) rotateY(90deg);
+        -ms-transform: perspective(400px) rotateY(90deg);
+        transform: perspective(400px) rotateY(90deg);
+        opacity: 0;
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotateY(-10deg);
+        -ms-transform: perspective(400px) rotateY(-10deg);
+        transform: perspective(400px) rotateY(-10deg);
+    }
+
+    70% {
+        -webkit-transform: perspective(400px) rotateY(10deg);
+        -ms-transform: perspective(400px) rotateY(10deg);
+        transform: perspective(400px) rotateY(10deg);
+    }
+
+    100% {
+        -webkit-transform: perspective(400px) rotateY(0);
+        -ms-transform: perspective(400px) rotateY(0);
+        transform: perspective(400px) rotateY(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes flipOutX {
+    0% {
+        -webkit-transform: perspective(400px) rotateX(0);
+        transform: perspective(400px) rotateX(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: perspective(400px) rotateX(90deg);
+        transform: perspective(400px) rotateX(90deg);
+        opacity: 0;
+    }
+}
+
+@keyframes flipOutX {
+    0% {
+        -webkit-transform: perspective(400px) rotateX(0);
+        -ms-transform: perspective(400px) rotateX(0);
+        transform: perspective(400px) rotateX(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: perspective(400px) rotateX(90deg);
+        -ms-transform: perspective(400px) rotateX(90deg);
+        transform: perspective(400px) rotateX(90deg);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes flipOutY {
+    0% {
+        -webkit-transform: perspective(400px) rotateY(0);
+        transform: perspective(400px) rotateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: perspective(400px) rotateY(90deg);
+        transform: perspective(400px) rotateY(90deg);
+        opacity: 0;
+    }
+}
+
+@keyframes flipOutY {
+    0% {
+        -webkit-transform: perspective(400px) rotateY(0);
+        -ms-transform: perspective(400px) rotateY(0);
+        transform: perspective(400px) rotateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: perspective(400px) rotateY(90deg);
+        -ms-transform: perspective(400px) rotateY(90deg);
+        transform: perspective(400px) rotateY(90deg);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes lightSpeedIn {
+    0% {
+        -webkit-transform: translateX(100%) skewX(-30deg);
+        transform: translateX(100%) skewX(-30deg);
+        opacity: 0;
+    }
+
+    60% {
+        -webkit-transform: translateX(-20%) skewX(30deg);
+        transform: translateX(-20%) skewX(30deg);
+        opacity: 1;
+    }
+
+    80% {
+        -webkit-transform: translateX(0) skewX(-15deg);
+        transform: translateX(0) skewX(-15deg);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: translateX(0) skewX(0);
+        transform: translateX(0) skewX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes lightSpeedIn {
+    0% {
+        -webkit-transform: translateX(100%) skewX(-30deg);
+        -ms-transform: translateX(100%) skewX(-30deg);
+        transform: translateX(100%) skewX(-30deg);
+        opacity: 0;
+    }
+
+    60% {
+        -webkit-transform: translateX(-20%) skewX(30deg);
+        -ms-transform: translateX(-20%) skewX(30deg);
+        transform: translateX(-20%) skewX(30deg);
+        opacity: 1;
+    }
+
+    80% {
+        -webkit-transform: translateX(0) skewX(-15deg);
+        -ms-transform: translateX(0) skewX(-15deg);
+        transform: translateX(0) skewX(-15deg);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: translateX(0) skewX(0);
+        -ms-transform: translateX(0) skewX(0);
+        transform: translateX(0) skewX(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes lightSpeedOut {
+    0% {
+        -webkit-transform: translateX(0) skewX(0);
+        transform: translateX(0) skewX(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: translateX(100%) skewX(-30deg);
+        transform: translateX(100%) skewX(-30deg);
+        opacity: 0;
+    }
+}
+
+@keyframes lightSpeedOut {
+    0% {
+        -webkit-transform: translateX(0) skewX(0);
+        -ms-transform: translateX(0) skewX(0);
+        transform: translateX(0) skewX(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: translateX(100%) skewX(-30deg);
+        -ms-transform: translateX(100%) skewX(-30deg);
+        transform: translateX(100%) skewX(-30deg);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes rotateIn {
+    0% {
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-transform: rotate(-200deg);
+        transform: rotate(-200deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes rotateIn {
+    0% {
+        -webkit-transform-origin: center center;
+        -ms-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-transform: rotate(-200deg);
+        -ms-transform: rotate(-200deg);
+        transform: rotate(-200deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform-origin: center center;
+        -ms-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes rotateInDownLeft {
+    0% {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes rotateInDownLeft {
+    0% {
+        -webkit-transform-origin: left bottom;
+        -ms-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform-origin: left bottom;
+        -ms-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes rotateInDownRight {
+    0% {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes rotateInDownRight {
+    0% {
+        -webkit-transform-origin: right bottom;
+        -ms-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform-origin: right bottom;
+        -ms-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes rotateInUpLeft {
+    0% {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes rotateInUpLeft {
+    0% {
+        -webkit-transform-origin: left bottom;
+        -ms-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform-origin: left bottom;
+        -ms-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes rotateInUpRight {
+    0% {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes rotateInUpRight {
+    0% {
+        -webkit-transform-origin: right bottom;
+        -ms-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform-origin: right bottom;
+        -ms-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes rotateOut {
+    0% {
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-transform: rotate(200deg);
+        transform: rotate(200deg);
+        opacity: 0;
+    }
+}
+
+@keyframes rotateOut {
+    0% {
+        -webkit-transform-origin: center center;
+        -ms-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform-origin: center center;
+        -ms-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-transform: rotate(200deg);
+        -ms-transform: rotate(200deg);
+        transform: rotate(200deg);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes rotateOutDownLeft {
+    0% {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        opacity: 0;
+    }
+}
+
+@keyframes rotateOutDownLeft {
+    0% {
+        -webkit-transform-origin: left bottom;
+        -ms-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform-origin: left bottom;
+        -ms-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes rotateOutDownRight {
+    0% {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        opacity: 0;
+    }
+}
+
+@keyframes rotateOutDownRight {
+    0% {
+        -webkit-transform-origin: right bottom;
+        -ms-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform-origin: right bottom;
+        -ms-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes rotateOutUpLeft {
+    0% {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        opacity: 0;
+    }
+}
+
+@keyframes rotateOutUpLeft {
+    0% {
+        -webkit-transform-origin: left bottom;
+        -ms-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform-origin: left bottom;
+        -ms-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes rotateOutUpRight {
+    0% {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        opacity: 0;
+    }
+}
+
+@keyframes rotateOutUpRight {
+    0% {
+        -webkit-transform-origin: right bottom;
+        -ms-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform-origin: right bottom;
+        -ms-transform-origin: right bottom;
+        transform-origin: right bottom;
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes slideInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-2000px);
+        transform: translateY(-2000px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-2000px);
+        -ms-transform: translateY(-2000px);
+        transform: translateY(-2000px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+        transform: translateX(-2000px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+        -ms-transform: translateX(-2000px);
+        transform: translateX(-2000px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes slideInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(2000px);
+        transform: translateX(2000px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(2000px);
+        -ms-transform: translateX(2000px);
+        transform: translateX(2000px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes slideOutLeft {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+        transform: translateX(-2000px);
+    }
+}
+
+@keyframes slideOutLeft {
+    0% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+        -ms-transform: translateX(-2000px);
+        transform: translateX(-2000px);
+    }
+}
+
+@-webkit-keyframes slideOutRight {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(2000px);
+        transform: translateX(2000px);
+    }
+}
+
+@keyframes slideOutRight {
+    0% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(2000px);
+        -ms-transform: translateX(2000px);
+        transform: translateX(2000px);
+    }
+}
+
+@-webkit-keyframes slideOutUp {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-2000px);
+        transform: translateY(-2000px);
+    }
+}
+
+@keyframes slideOutUp {
+    0% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-2000px);
+        -ms-transform: translateY(-2000px);
+        transform: translateY(-2000px);
+    }
+}
+
+@-webkit-keyframes hinge {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        -webkit-transform-origin: top left;
+        transform-origin: top left;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+    }
+
+    20%, 60% {
+        -webkit-transform: rotate(80deg);
+        transform: rotate(80deg);
+        -webkit-transform-origin: top left;
+        transform-origin: top left;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+    }
+
+    40% {
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+        -webkit-transform-origin: top left;
+        transform-origin: top left;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+    }
+
+    80% {
+        -webkit-transform: rotate(60deg) translateY(0);
+        transform: rotate(60deg) translateY(0);
+        opacity: 1;
+        -webkit-transform-origin: top left;
+        transform-origin: top left;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+    }
+
+    100% {
+        -webkit-transform: translateY(700px);
+        transform: translateY(700px);
+        opacity: 0;
+    }
+}
+
+@keyframes hinge {
+    0% {
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+        -webkit-transform-origin: top left;
+        -ms-transform-origin: top left;
+        transform-origin: top left;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+    }
+
+    20%, 60% {
+        -webkit-transform: rotate(80deg);
+        -ms-transform: rotate(80deg);
+        transform: rotate(80deg);
+        -webkit-transform-origin: top left;
+        -ms-transform-origin: top left;
+        transform-origin: top left;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+    }
+
+    40% {
+        -webkit-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        transform: rotate(60deg);
+        -webkit-transform-origin: top left;
+        -ms-transform-origin: top left;
+        transform-origin: top left;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+    }
+
+    80% {
+        -webkit-transform: rotate(60deg) translateY(0);
+        -ms-transform: rotate(60deg) translateY(0);
+        transform: rotate(60deg) translateY(0);
+        opacity: 1;
+        -webkit-transform-origin: top left;
+        -ms-transform-origin: top left;
+        transform-origin: top left;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+    }
+
+    100% {
+        -webkit-transform: translateY(700px);
+        -ms-transform: translateY(700px);
+        transform: translateY(700px);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes rollIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-100%) rotate(-120deg);
+        transform: translateX(-100%) rotate(-120deg);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0) rotate(0);
+        transform: translateX(0) rotate(0);
+    }
+}
+
+@keyframes rollIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-100%) rotate(-120deg);
+        -ms-transform: translateX(-100%) rotate(-120deg);
+        transform: translateX(-100%) rotate(-120deg);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0) rotate(0);
+        -ms-transform: translateX(0) rotate(0);
+        transform: translateX(0) rotate(0);
+    }
+}
+
+@-webkit-keyframes rollOut {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0) rotate(0);
+        transform: translateX(0) rotate(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(100%) rotate(120deg);
+        transform: translateX(100%) rotate(120deg);
+    }
+}
+
+@keyframes rollOut {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0) rotate(0);
+        -ms-transform: translateX(0) rotate(0);
+        transform: translateX(0) rotate(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(100%) rotate(120deg);
+        -ms-transform: translateX(100%) rotate(120deg);
+        transform: translateX(100%) rotate(120deg);
+    }
+}
+
+.mega_menu_overlay .container-fluid {
+    background-color: none;
+}
+
+.premiumCards {
+    padding: 0 0 38px;
+}
+
+    .premiumCards .approachBox.approchBoxTop {
+        margin-top: 50px;
+    }
+
+    .premiumCards h4 {
+        text-align: left;
+        font-family: Graphik-Semibold;
+        font-size: 15px;
+        line-height: 20px;
+        color: #991c50;
+        padding-bottom: 30px;
+        width: 75%;
+    }
+
+    .premiumCards p {
+        text-align: left;
+        color: #414141;
+        font-size: 16px;
+        display: block;
+    }
+
+    .premiumCards img {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+.ourApprCont.current div:hover img {
+    transform: scale(1.05);
+    overflow: hidden;
+    transition: 1s all linear;
+}
+
+.premiumCards .ourApprCont {
+    padding-top: 27px;
+}
+
+    .premiumCards .ourApprCont .contentBox {
+        padding-top: 100px;
+    }
+
+        .premiumCards .ourApprCont .contentBox ul {
+            width: 80%;
+        }
+
+            .premiumCards .ourApprCont .contentBox ul li {
+                font-family: Graphik-Medium;
+                font-size: 13px;
+                margin-left: 15px;
+                line-height: 22px;
+                position: relative;
+            }
+
+                .premiumCards .ourApprCont .contentBox ul li:after {
+                    content: "";
+                    display: block;
+                    height: 4px;
+                    width: 4px;
+                    border-radius: 50%;
+                    background: #997e48;
+                    position: absolute;
+                    top: 9px;
+                    left: -11px;
+                }
+
+    .premiumCards .ourApprCont .contentBox2 {
+        padding-top: 58px;
+    }
+
+        .premiumCards .ourApprCont .contentBox2 .ulBox {
+            margin-left: 15px;
+            width: 90%;
+        }
+
+            .premiumCards .ourApprCont .contentBox2 .ulBox ul {
+                display: inline-block;
+                width: 50%;
+                float: left;
+            }
+
+                .premiumCards .ourApprCont .contentBox2 .ulBox ul li {
+                    font-size: 13px;
+                    font-family: Graphik-Medium;
+                }
+
+    .premiumCards .ourApprCont p {
+        font-size: 13px;
+        width: 100%;
+    }
+
+.premiumCards .tnc {
+    font-family: Graphik-Regular;
+    font-size: 7px;
+    text-align: right;
+    margin-right: 5%;
+}
+
+
+
+.personalBanking {
+    height: 108px;
+}
+
+    .personalBanking .wealthPersonalBox {
+        top: 40px;
+        padding: 39px 85px 32px;
+    }
+
+        .personalBanking .wealthPersonalBox h3 {
+            color: #a31d48;
+            font-size: 24px;
+            font-family: Graphik-Medium;
+            text-transform: uppercase;
+        }
+
+        .personalBanking .wealthPersonalBox p {
+            color: #414042;
+            font-size: 19px;
+            line-height: 27px;
+            font-family: Graphik-Regular;
+            width: 86%;
+            margin: 0 auto;
+            padding: 17px 0 0;
+        }
+
+    .personalBanking.busBanking {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+.premiumCards {
+    padding: 0 0 38px;
+}
+
+    .premiumCards .approachBox.approchBoxTop {
+        margin-top: 50px;
+    }
+
+    .premiumCards h4 {
+        text-align: left;
+        font-family: Graphik-Semibold;
+        font-size: 15px;
+        line-height: 20px;
+        color: #991c50;
+        padding-bottom: 30px;
+        width: 75%;
+    }
+
+    .premiumCards p {
+        text-align: left;
+        color: #414141;
+        font-size: 16px;
+        display: block;
+    }
+
+    .premiumCards img {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+.ourApprCont.current div:hover img {
+    transform: scale(1.05);
+    overflow: hidden;
+    transition: 1s all linear;
+}
+
+.premiumCards .ourApprCont {
+    padding-top: 27px;
+}
+
+    .premiumCards .ourApprCont .contentBox {
+        padding-top: 100px;
+    }
+
+        .premiumCards .ourApprCont .contentBox ul {
+            width: 80%;
+        }
+
+            .premiumCards .ourApprCont .contentBox ul li {
+                font-family: Graphik-Medium;
+                font-size: 13px;
+                margin-left: 15px;
+                line-height: 22px;
+                position: relative;
+            }
+
+                .premiumCards .ourApprCont .contentBox ul li:after {
+                    content: "";
+                    display: block;
+                    height: 4px;
+                    width: 4px;
+                    border-radius: 50%;
+                    background: #997e48;
+                    position: absolute;
+                    top: 9px;
+                    left: -11px;
+                }
+
+    .premiumCards .ourApprCont .contentBox2 {
+        padding-top: 58px;
+    }
+
+        .premiumCards .ourApprCont .contentBox2 .ulBox {
+            margin-left: 15px;
+        }
+
+            .premiumCards .ourApprCont .contentBox2 .ulBox ul {
+                display: inline-block;
+                width: 50%;
+                float: left;
+            }
+
+                .premiumCards .ourApprCont .contentBox2 .ulBox ul li {
+                    font-size: 13px;
+                    font-family: Graphik-Medium;
+                }
+
+    .premiumCards .ourApprCont p {
+        font-size: 13px;
+        width: 100%;
+    }
+
+.premiumCards .tnc {
+    font-family: Graphik-Regular;
+    font-size: 7px;
+    text-align: right;
+    margin-right: 5%;
+}
+
+.ourApproTabs2 {
+    text-align: center;
+}
+
+    .ourApproTabs2 li {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        padding: 0 10px;
+        font-family: Graphik-Medium;
+        font-size: 17px;
+        color: #6d6f70;
+    }
+
+        .ourApproTabs2 li br {
+            display: none;
+        }
+
+        .ourApproTabs2 li:after {
+            content: "";
+            background: url(../page-not-found334d.html) no-repeat;
+            width: 298px;
+            height: 8px;
+            display: block;
+        }
+
+        .ourApproTabs2 li.current {
+            color: #991c50;
+            position: relative;
+        }
+
+.businessBanking {
+    background: #ebebec;
+    padding: 149px 0 77px;
+}
+
+    .businessBanking h3 {
+        text-align: center;
+        font-family: Graphik-Semibold;
+        font-size: 24px;
+        color: #991c50;
+    }
+
+    .businessBanking h5 {
+        font-size: 19px;
+        color: #414141;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .businessBanking p {
+        text-align: center;
+        color: #414141;
+        font-size: 16px;
+        width: 62%;
+        display: block;
+        margin: 35px auto;
+    }
+
+    .businessBanking img {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+.burgundyDigital.tunedPortfolio {
+    padding: 83px 0 79px;
+}
+
+    .burgundyDigital.tunedPortfolio .solutionBox {
+        margin-top: 0;
+    }
+
+        .burgundyDigital.tunedPortfolio .solutionBox .personalBank {
+            padding-top: 82px;
+        }
+
+            .burgundyDigital.tunedPortfolio .solutionBox .personalBank .personalBankingBlock {
+                padding-top: 0;
+            }
+
+            .burgundyDigital.tunedPortfolio .solutionBox .personalBank .businessBankingBlock {
+                padding-top: 0;
+            }
+
+            .burgundyDigital.tunedPortfolio .solutionBox .personalBank .mobApp {
+                height: 100%;
+                overflow: hidden;
+                padding-top: 19px;
+            }
+
+            .burgundyDigital.tunedPortfolio .solutionBox .personalBank a {
+                font-size: 15px;
+                color: #ae275f;
+                text-decoration: none;
+                font-family: Graphik-Semibold;
+                margin-top: 50px;
+            }
+
+                .burgundyDigital.tunedPortfolio .solutionBox .personalBank a.appBtn {
+                    display: inline-block;
+                    float: left;
+                    width: 50%;
+                    margin-top: 0;
+                }
+
+                .burgundyDigital.tunedPortfolio .solutionBox .personalBank a.login {
+                    background-color: #981c50;
+                    color: #fff;
+                    font-size: 16px;
+                    line-height: 20px;
+                    padding: 7px 30px;
+                    text-transform: uppercase;
+                    display: inline-block;
+                    margin-top: 0;
+                    text-decoration: none;
+                    cursor: pointer;
+                    font-family: Graphik-Medium;
+                    letter-spacing: 2px;
+                    width: 50%;
+                }
+
+    .burgundyDigital.tunedPortfolio h2 {
+        text-align: center;
+        font-size: 24px;
+        font-family: Graphik-Semibold;
+        color: #9a1c4f;
+        padding-bottom: 20px;
+    }
+
+    .burgundyDigital.tunedPortfolio h3 {
+        text-align: center;
+        font-size: 19px;
+        font-family: Graphik-Regular;
+        padding-bottom: 28px;
+    }
+
+    .burgundyDigital.tunedPortfolio p {
+        text-align: center;
+        font-size: 15px;
+        font-family: Graphik-Regular;
+    }
+
+    .burgundyDigital.tunedPortfolio .personalBank span {
+        font-size: 17px;
+        color: #997e48;
+        font-family: Graphik-Medium;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 42px;
+        position: relative;
+    }
+
+        .burgundyDigital.tunedPortfolio .personalBank span:after {
+            content: "";
+            width: 333px;
+            height: 2px;
+            display: block;
+            position: absolute;
+            background: #d1c9b7;
+            bottom: 15px;
+            left: -84px;
+        }
+
+        .burgundyDigital.tunedPortfolio .personalBank span:before {
+            content: "";
+            background: url(../img/BurgundyImg/designPattern.png) no-repeat 0 0;
+            display: inline-block;
+            width: 14px;
+            height: 8px;
+            position: absolute;
+            bottom: 12px;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+
+    .burgundyDigital.tunedPortfolio .personalBank a {
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+.approachBox2 .contentBox2 ul li {
+    position: relative;
+}
+
+    .approachBox2 .contentBox2 ul li:after {
+        content: "";
+        display: block;
+        height: 4px;
+        width: 4px;
+        border-radius: 50%;
+        background: #997e48;
+        position: absolute;
+        top: 11px;
+        left: -11px;
+    }
+
+.intBank {
+    padding-top: 19px;
+}
+
+.ourApprContNew {
+    display: none;
+}
+
+    .ourApprContNew.current {
+        display: block;
+    }
+
+.premiumCards .accordianWrap h3 {
+    font-family: Graphik-Medium;
+    font-size: 15px;
+    line-height: 17px;
+    color: #414042;
+    padding-top: 26px;
+    cursor: pointer;
+}
+
+    .premiumCards .accordianWrap h3:first-child {
+        padding-top: 0;
+    }
+
+    .premiumCards .accordianWrap h3.current {
+        color: #ae275f;
+    }
+
+        .premiumCards .accordianWrap h3 .current + .accContent {
+            border-bottom: 1px solid red;
+        }
+
+.premiumCards .accordianWrap .accContent {
+    margin-top: 35px;
+    padding-left: 10px;
+}
+
+    .premiumCards .accordianWrap .accContent li {
+        position: relative;
+    }
+
+        .premiumCards .accordianWrap .accContent li:after {
+            content: "";
+            display: block;
+            height: 4px;
+            width: 4px;
+            border-radius: 50%;
+            background: #997e48;
+            position: absolute;
+            top: 9px;
+            left: -11px;
+        }
+
+    .premiumCards .accordianWrap .accContent p {
+        font-size: 13px;
+        line-height: 22px;
+        font-family: Graphik-Medium;
+        color: #414042;
+    }
+
+    .premiumCards .accordianWrap .accContent span {
+        font-size: 13px;
+        line-height: 15px;
+        font-family: Graphik-Regular;
+    }
+
+.current + .accContent {
+    border-bottom: 1px solid #edd6df;
+    padding-bottom: 20px;
+}
+/*changes on 9 July 2018*/
+
+.dropMenuWrap > a:after {
+    content: "";
+    background-image: url(../img/BurgundyImg/arrow_down71f7.png?v1=1.0);
+    background-repeat: no-repeat;
+    width: 20px;
+    top: 30%;
+    right: -20px;
+    position: absolute;
+    height: 20px;
+}
+
+.dropWrap .dropMenuWrap {
+    position: relative;
+    width: 200px;
+    margin: auto;
+}
+
+    .dropWrap .dropMenuWrap .dropMenu {
+        /*position: absolute;
+    width: 210px;
+    z-index: 500;
+    background: #fff;
+    border: 1px solid #ccc;
+    right: -9px;
+    visibility: hidden*/
+        position: absolute;
+        width: 220px;
+        z-index: 500;
+        background: #e7e7e7;
+        right: -15px;
+        visibility: hidden;
+        padding-top: 10px;
+        top: 54px;
+    }
+
+        .dropWrap .dropMenuWrap .dropMenu ul li {
+            display: block;
+            width: 90%;
+            border-bottom: 1px solid #a0a0a1;
+            padding: 9px 0;
+            margin: auto;
+        }
+
+            .dropWrap .dropMenuWrap .dropMenu ul li:last-child {
+                border-bottom: none;
+            }
+
+            .dropWrap .dropMenuWrap .dropMenu ul li a {
+                /*font-size: 14px;
+    font-weight: 700;
+    display: block*/
+                font-size: 14px;
+                line-height: 17px;
+                font-weight: bold;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+    .dropWrap .dropMenuWrap:hover .dropMenu {
+        visibility: visible;
+    }
+
+.navMblHideBox.abFoundationWrap ul.navMobHide .dropMenuWrap li {
+    width: 90%;
+}
+
+    .navMblHideBox.abFoundationWrap ul.navMobHide .dropMenuWrap li:first-child {
+        width: 90%;
+    }
+
+        .navMblHideBox.abFoundationWrap ul.navMobHide .dropMenuWrap li:first-child a {
+            background: 0 0;
+            width: 100%;
+        }
+/*25-07-2018*/
+
+.bankingSolution .legacyPlanIcon {
+    background: url("../img/BurgundyImg/icon-legacy.png") no-repeat 0 0;
+    width: 123px;
+    height: 123px;
+    display: block;
+}
+
+.bankingSolution .axisFoundIcon {
+    background: url("../img/BurgundyImg/icons_Philanthropy.png") no-repeat 0 0;
+    width: 123px;
+    height: 123px;
+    display: block;
+}
+
+.wealthLegacy .personalBanking {
+    padding: 80px 0;
+}
+
+.wealthLegacy .lendingSolution {
+    padding: 80px 0;
+}
+
+
+.foundation .franchise {
+    font-family: Graphik-Semibold;
+    font-size: 15px;
+    line-height: 1rem;
+    padding: 0 3px;
+    padding-bottom: 0.4rem;
+    padding-top: 1rem;
+    display: block; 
+}
+
+/*.navMblHideBox.abFoundationWrap ul.navMobHide li a.active {
+    max-width: 10px;
+}*/
+
+.dropMenuWrap > a:after {
+    top: 15px;
+    right: 16%;
+}
+
+.personalBanking .wealthPersonalBox {
+    top: 64px;
+}
+
+.navMblHideBox .activeMobile {
+    display: none;
+}
+
+.navMblHideBox .mobileShow {
+    display: block;
+}
+
+    .navMblHideBox .mobileShow a {
+        display: block;
+        text-indent: -10000px;
+    }
+
+.navMblHideBox .mobileHide {
+    display: block;
+}
+
+/*22/7/2019 changes*/
+
+.philanthropy{
+        margin-top: 30px;
+}
+
+.donetNetBanking{
+background: #ae285d;
+    padding: 6px 0 !important;
+
+}
+
+.donetNetBanking a{
+    color: #fff;
+}
+
+.donateKnowmoreWrap .donateKnowBox .donatKnowAnchr {
+    width: 37%;
+    padding: 5px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.donateaxisedge{
+    border: 1px solid #ae285d;
+}
+
+.DonetBtnSec{
+    text-align: center;
+    margin: 0 auto;
+}
+.philanthropy .knwMoreBtn{
+text-align: left;
+}
+
+
+@media only screen and (max-width:1199px) {
+
+    .premiumCards .ourApproTabs li {
+        padding: 0 5px;
+    }
+}
+
+@media only screen and (max-width: 992) {
+    .premiumCards .approachBox.approchBoxTop .ourApproTabs li:after {
+        width: 10px !important;
+    }
+}
+
+@media only screen and (max-width:991px) {
+
+    .premiumCards .approachBox.approchBoxTop .ourApproTabs li:after {
+        width: 220px;
+    }
+
+    .premiumCards p {
+        width: 100%;
+    }
+
+    .businessBanking p {
+        width: 100%;
+    }
+
+    .wealthPersonalBox p br {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .navMblHideBox {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .navMblHideBox {
+        display: block;
+    }
+
+    .dropWrap .dropMenuWrap > a {
+        display: none;
+    }
+
+    .navMblHideBox .mobileShow {
+        display: block;
+    }
+
+        .navMblHideBox .mobileShow a {
+            display: block;
+            text-indent: 0;
+        }
+
+    .navMblHideBox .mobileHide {
+        display: none !important;
+    }
+
+    .navMblHideBox.abFoundationWrap ul.navMobHide li:first-child {
+        border-bottom: 1px solid #eaebeb !important;
+    }
+
+    .navMblHideBox.abFoundationWrap ul.navMobHide .dropMenuWrap li:first-child {
+        width: 100% !important;
+    }
+
+    .navMblHideBox.abFoundationWrap ul.navMobHide li:first-child a:hover {
+        height: 22px !important;
+    }
+
+    .navMblHideBox {
+        text-align: center;
+        background: url(../img/BurgundyImg/liveryNew.png) repeat top left #b7b3ac;
+        width: 100%;
+        height: auto;
+        display: block;
+        position: relative;
+    }
+
+        .navMblHideBox ul.navMobHide {
+            padding: 5px 0;
+            display: block;
+            position: relative;
+            background: white;
+            margin: 20px;
+            height: auto;
+        }
+
+        .navMblHideBox.abFoundationWrap ul.navMobHide li {
+            border-bottom: 1px solid #eaebeb;
+            width: 100%;
+        }
+
+            .navMblHideBox.abFoundationWrap ul.navMobHide li a br {
+                display: none;
+            }
+
+        .navMblHideBox ul.navMobHide li a {
+            font-size: 13px;
+            color: #989a9a;
+            padding: 5px 0;
+            display: block;
+        }
+
+        .navMblHideBox.abFoundationWrap ul.navMobHide li:last-child {
+            border-bottom: none;
+        }
+
+        .navMblHideBox.abFoundationWrap ul.navMobHide li {
+            border-bottom: 1px solid #eaebeb;
+        }
+
+            .navMblHideBox.abFoundationWrap ul.navMobHide li a.active {
+                font-size: 15px;
+                max-width: unset;
+            }
+
+            .navMblHideBox.abFoundationWrap ul.navMobHide li a.active {
+            }
+
+    .dropMenuWrap > a:after {
+        top: 12%;
+        right: -20px;
+    }
+
+    .dropWrap .dropMenuWrap .dropMenu {
+        position: absolute;
+        width: 100%;
+        padding-top: 0;
+        top: 47px;
+        background: white;
+        display: none;
+    }
+
+    .navMblHideBox.abFoundationWrap ul.navMobHide .dropMenuWrap li {
+        padding: 0;
+    }
+
+    .navMblHideBox.abFoundationWrap ul.navMobHide .dropMenuWrap li {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .dropWrap .dropMenuWrap .dropMenu {
+        right: 0;
+    }
+
+        .dropWrap .dropMenuWrap .dropMenu ul li a {
+            font-size: 12px;
+        }
+
+    .dropWrap .dropMenuWrap {
+        width: auto !important;
+    }
+
+    .ourApproTabs {
+        border-bottom: 2px solid #d1c9b7;
+        padding-bottom: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+
+        .ourApproTabs li {
+            margin-right: 0rem;
+        }
+
+
+        .ourApproTabs li {
+            font-size: 12px;
+            padding: 0 30px;
+            line-height: 16px;
+            border: none;
+        }
+
+            .ourApproTabs li:after {
+                display: none;
+            }
+
+    .premiumCards {
+        padding: 100px 0 40px;
+        display: block;
+    }
+
+        .premiumCards .tabImg {
+            position: absolute;
+            top: -262px;
+            width: 100%;
+            height: 262px;
+        }
+
+        .premiumCards .approachBox {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+            .premiumCards .approachBox.approchBoxTop .ourApproTabs li {
+                padding-top: 67px;
+            }
+
+                .premiumCards .approachBox.approchBoxTop .ourApproTabs li:after {
+                    width: 14px;
+                }
+
+            .premiumCards .approachBox.approachBox2 .ourApproTabs li {
+                padding: 0 35px;
+            }
+
+        .premiumCards h4 {
+            font-size: 12px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .premiumCards p {
+            font-size: 11px;
+            margin: 20px auto;
+            line-height: 20px;
+        }
+
+        .premiumCards .ourApprCont .contentBox {
+            padding-top: 0;
+        }
+
+            .premiumCards .ourApprCont .contentBox ul {
+                width: 100%;
+            }
+
+        .premiumCards .ourApprCont .contentBox2 .ulBox ul li {
+            font-size: 11px;
+        }
+
+    .ourApproTabs2 {
+        border-bottom: 2px solid #d1c9b7;
+        padding-bottom: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+        .ourApproTabs2 li br {
+            display: block;
+        }
+
+        .ourApproTabs2 li.current:after {
+            content: "";
+            background: url(../page-not-foundfda9.html) no-repeat 0 0;
+            display: inline-block;
+            width: 14px;
+            height: 8px;
+            position: absolute;
+            bottom: -14px;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+        }
+
+        .ourApproTabs2 li {
+            font-size: 12px;
+            padding: 0 30px;
+            line-height: 16px;
+        }
+
+            .ourApproTabs2 li:after {
+                display: none;
+            }
+
+    .businessBanking {
+        padding: 99px 0 76px;
+    }
+
+        .businessBanking .approachBox {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+        .businessBanking h3 {
+            font-size: 15px;
+        }
+
+        .businessBanking h5 {
+            font-size: 11px;
+            width: 55%;
+            margin: 0 auto;
+            line-height: 21px;
+            font-family: Graphik-Semibold;
+        }
+
+        .businessBanking p {
+            font-size: 11px;
+            margin: 20px auto;
+            line-height: 20px;
+        }
+
+    .burgundyDigital.tunedPortfolio .solutionBox .personalBank {
+        padding-top: 72px;
+    }
+
+        .burgundyDigital.tunedPortfolio .solutionBox .personalBank a {
+            margin-top: 35px;
+        }
+
+    .burgundyDigital.tunedPortfolio .personalBank span {
+        padding-bottom: 28px;
+    }
+
+        .burgundyDigital.tunedPortfolio .personalBank span:after {
+            width: 255px;
+            left: -76px;
+            bottom: 6px;
+        }
+
+        .burgundyDigital.tunedPortfolio .personalBank span:before {
+            bottom: 3px;
+        }
+
+        .burgundyDigital.tunedPortfolio .personalBank span.itnBanking:after {
+            left: -56px;
+        }
+
+    .logoBox.logoHide {
+        display: none;
+    }
+
+    .personalBanking {
+        height: 82px;
+    }
+
+        .personalBanking .wealthPersonalBox h3 {
+            font-size: 15px;
+        }
+
+        .personalBanking .wealthPersonalBox p {
+            font-size: 11px;
+        }
+
+    .premiumCards {
+        padding: 100px 0 40px;
+        display: block;
+    }
+
+        .premiumCards .tabImg {
+            position: absolute;
+            top: -262px;
+            width: 100%;
+            height: 262px;
+        }
+
+        .premiumCards .approachBox {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+            .premiumCards .approachBox.approchBoxTop .ourApproTabs li {
+                padding-top: 67px;
+            }
+
+                .premiumCards .approachBox.approchBoxTop .ourApproTabs li:after {
+                    width: 14px;
+                }
+
+            .premiumCards .approachBox.approachBox2 .ourApproTabs li {
+                padding: 0 35px;
+            }
+
+        .premiumCards h4 {
+            font-size: 12px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .premiumCards p {
+            font-size: 11px;
+            margin: 20px auto;
+            line-height: 20px;
+        }
+
+        .premiumCards .ourApprCont .contentBox {
+            padding-top: 0;
+        }
+
+            .premiumCards .ourApprCont .contentBox ul {
+                width: 100%;
+            }
+
+        .premiumCards .ourApprCont .contentBox2 .ulBox ul li {
+            font-size: 11px;
+        }
+
+    .ourApproTabs2 {
+        border-bottom: 2px solid #d1c9b7;
+        padding-bottom: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+        .ourApproTabs2 li br {
+            display: block;
+        }
+
+        .ourApproTabs2 li.current:after {
+            content: "";
+            background: url(../page-not-foundfda9.html) no-repeat 0 0;
+            display: inline-block;
+            width: 14px;
+            height: 8px;
+            position: absolute;
+            bottom: -14px;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+        }
+
+        .ourApproTabs2 li {
+            font-size: 12px;
+            padding: 0 30px;
+            line-height: 16px;
+        }
+
+            .ourApproTabs2 li:after {
+                display: none;
+            }
+
+    .businessBanking {
+        padding: 99px 0 76px;
+    }
+
+        .businessBanking .approachBox {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+        .businessBanking h3 {
+            font-size: 15px;
+        }
+
+        .businessBanking h5 {
+            font-size: 11px;
+            width: 55%;
+            margin: 0 auto;
+            line-height: 21px;
+            font-family: Graphik-Semibold;
+        }
+
+        .businessBanking p {
+            font-size: 11px;
+            margin: 20px auto;
+            line-height: 20px;
+        }
+
+    .burgundyDigital.tunedPortfolio .solutionBox .personalBank {
+        padding-top: 72px;
+    }
+
+        .burgundyDigital.tunedPortfolio .solutionBox .personalBank a {
+            margin-top: 35px;
+        }
+
+    .burgundyDigital.tunedPortfolio .personalBank span {
+        padding-bottom: 28px;
+    }
+
+        .burgundyDigital.tunedPortfolio .personalBank span:after {
+            width: 255px;
+            left: -76px;
+            bottom: 6px;
+        }
+
+        .burgundyDigital.tunedPortfolio .personalBank span:before {
+            bottom: 3px;
+        }
+
+        .burgundyDigital.tunedPortfolio .personalBank span.itnBanking:after {
+            left: -56px;
+        }
+
+    .logoBox.logoHide {
+        display: none;
+    }
+
+    .navMblHideBox ul.navMobHide li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+        .navMblHideBox ul.navMobHide li a br {
+            display: none;
+        }
+
+    .dropWrap .dropMenuWrap .dropMenu {
+        position: static;
+        width: 100%;
+        padding-top: 0;
+        top: 47px;
+        background: white;
+        display: none;
+        visibility: visible;
+    }
+
+        .dropWrap .dropMenuWrap .dropMenu ul li {
+            border-bottom: none;
+        }
+
+    .navMblHideBox .activeMobile {
+        padding: 5px 0;
+        display: block;
+        position: relative;
+        background: white;
+        margin: 20px 20px 0 20px;
+        height: auto;
+        color: #a31d48;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+        .navMblHideBox .activeMobile br {
+            display: none;
+        }
+
+
+    .navMblHideBox ul.navMobHide {
+        padding: 5px 0;
+        display: block;
+        position: relative;
+        background: white;
+        margin: 0 20px 0 20px;
+        /* height: auto; */
+        display: none;
+    }
+
+    .navMblHideBox .activeMobile::after {
+        content: "";
+        background-image: url(../img/BurgundyImg/arrow_down.png);
+        background-repeat: no-repeat;
+        width: 20px;
+        top: 13px;
+        right: 0;
+        position: absolute;
+        height: 20px;
+    }
+
+    .navMblHideBox ul.navMobHide li .dropMenuWrap > a {
+        color: #a31d48;
+        display: none;
+    }
+
+    .navMblHideBox ul.navMobHide .dropMenuWrap .dropMenu a {
+        color: #989a9a;
+    }
+    .donateKnowmoreWrap .donateKnowBox .donatKnowAnchr{
+            width: 100%;
+                margin-left: 0;
+    margin-bottom: 10px;
+    }
+
+    .philanthropy.premiumCards .approachBox.approachBox2 .ourApproTabs li{
+        width: 86px;
+    font-size: 10px;
+    padding: 0;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .premiumCards .ourApproTabs li {
+        padding: 0 10px;
+    }
+
+    .burgundyDigital.tunedPortfolio .solutionBox .personalBank {
+        padding-bottom: 0;
+    }
+
+        .burgundyDigital.tunedPortfolio .solutionBox .personalBank a {
+            font-size: 12px;
+        }
+
+            .burgundyDigital.tunedPortfolio .solutionBox .personalBank a.login {
+                padding: 8px 30px;
+                width: 80%;
+            }
+
+    .burgundyDigital.tunedPortfolio h2 {
+        font-size: 15px;
+        padding-bottom: 17px;
+    }
+
+    .burgundyDigital.tunedPortfolio h3 {
+        font-size: 11px;
+        padding-bottom: 25px;
+    }
+
+    .burgundyDigital.tunedPortfolio p {
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+    .burgundyDigital.tunedPortfolio .personalBank span {
+        font-size: 12px;
+    }
+
+    .personalBanking .wealthPersonalBox {
+        padding: 20px 13px 5px;
+    }
+}
+
+@media only screen and (max-width: 321) {
+
+
+
+    .ourApproTabs li {
+        font-size: 10px;
+        padding: 0 30px;
+        line-height: 16px;
+        border: none;
+        width: 23%;
+    }
+}
+
+/* Naveen - Join Burgundy START - 10-08-2018 */
+
+.bannerWrapper .joinBurgundyLink {
+    position: fixed;
+    right: -4%;
+    top: 50%;
+    background-color: #ae275f;
+    display: inline-block;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    z-index: 11;
+}
+
+    .bannerWrapper .joinBurgundyLink p {
+        font-family: 'FuturaBT-Light';
+        font-size: 17px;
+        line-height: 35px;
+        width: 140px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+        .bannerWrapper .joinBurgundyLink p a {
+            font-size: 17px;
+            color: #ffffff;
+            font-weight: 600;
+            text-decoration:none;
+        }
+
+/* Naveen - Join Burgundy END - 10-08-2018 */
+
+.navMblHideBox ul.navMobHide li a {
+    cursor: pointer;
+}
+.philanthropy .contentBox2{
+padding-top: 38px;
+}
+
+.premiumCards .ourApprCont p{
+font-size: 15px;
+}

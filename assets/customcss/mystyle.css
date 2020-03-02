@@ -1,0 +1,1590 @@
+﻿body {
+}
+
+.exploreProd .right .mSectn .sLevelM h4.nriHome::after{display: none;}
+
+.topMenuNewWrapper .downLoadBox .downloadRhs p {
+    font-size: 1.4rem;
+}
+
+.calcEase .linkDiv {
+    text-align: right;
+}
+
+.faqsBox .panel-default .panel-collapse .panel-body h6 {
+    font-size: 1.6rem;
+    color: #323232;
+    padding: 1rem 0;
+}
+
+
+.basicTable h4 {
+    padding-bottom: 1rem;
+}
+
+.compareSect .loanDesigned .loanBox ul li.loanAmtHt {
+    height: 90px;
+}
+
+.offerWrapper .btnBlock {
+    position: absolute;
+} 
+
+.archiveBtn {
+    background: #ae285d;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    padding: 1rem 3rem;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 2.2rem 0 1rem;
+}
+
+
+
+.commonPopup.paymentOption .modal .modal-dialog {
+    width: 600px;
+    margin: 15rem auto 3rem;
+}
+
+    .commonPopup.paymentOption .modal .modal-dialog h4 {
+        border-bottom: 3px solid #b4366a;
+        font-size: 22px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        color: #262626;
+    }
+
+    .commonPopup.paymentOption .modal .modal-dialog p {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .commonPopup.paymentOption .modal .modal-dialog .btnBlock {
+        display: inline-block;
+    }
+
+
+.tableWrapper.auctNoticeTable .tblData tr:nth-child(odd), .tableWrapper table tr:nth-child(odd) {
+    background: none;
+}
+
+.auctNoticeTable a {
+    color: #323232 !important;
+}
+
+    .auctNoticeTable a:focus, .auctNoticeTable a:visited {
+        color: #323232;
+    }
+
+/*.auctNoticeTable a:focus, a:visited {
+    color: #323232;
+}*/
+
+.auctNoticeTable a:hover {
+    color: #323232;
+}
+
+.auctNoticeTable td:nth-of-type(2) {
+    width: 67%;
+}
+
+.auctNoticeTable th:nth-of-type(3) {
+    width: 14%;
+}
+
+.currAccTableBox .tableBox tr .tableHead table .mainHead td.upperText {
+    height: 60px
+}
+
+.progressUsSlider li .rgtSide {
+    padding: 0 1rem;
+}
+
+.csrBoxWrap .csrBox {
+    min-height: 31rem;
+}
+.csrInfoWrap .linkDiv {
+    clear: both;
+    width: auto;
+    display: inline-block;
+}
+
+.csrBoxWrap .csrBox p {
+    min-height: 20rem;
+}
+.csrBoxInfoWrap .linkDiv.linkKnowmore {
+    padding-bottom: 2rem;
+}
+.csrBoxInfoWrap .linkDiv.linkKnowmore a{
+    float:right;
+}
+.csrInfo{
+    display:inline-block;
+}
+.csrInfoWrap .buttonWrap .viewAll:hover{color:#fff;}
+.linkDiv a {
+    font-size: 1.4rem;
+    float: none;
+    line-height: 1.4rem;
+    display: inline-block;
+    padding-bottom: 0rem;
+}
+
+.buttonWrap  .separatorcsr {
+    border-bottom: 1px solid #ccc;
+}
+
+.bannerWrapper .bannerText .csrBanner h2 {
+    color: #fff;
+}
+
+.bannerWrapper .bannerText .csrBanner p {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 28px;
+}
+
+.auctionwrapper .tableWrapper .tblData th:nth-child(2), .auctionwrapper .tableWrapper table th:nth-child(2), .auctionwrapper .tableWrapper .tblData td:nth-child(2), .auctionwrapper .tableWrapper table td:nth-child(2) {
+    width: 70%;
+}
+
+
+.eligibilityBox h5 {
+    font-size: 1.6rem;
+}
+
+.offers2 {
+    display: block;
+}
+
+    .offers2 li {
+        display: inline-block;
+        width: 49%;
+    }
+
+.subIframe .modal-header {
+    border: 0;
+    padding: 0;
+    min-height: 0;
+}
+
+.subIframe .modal-content {
+    width: 370px;
+    margin-top: 25%;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.subIframe .modal-body {
+    padding: 0;
+}
+
+.subIframe .modal-content .close {
+    position: absolute;
+    right: 31px;
+    font-size: 26px;
+    color: #ae285d;
+    top: 26px;
+    font-weight: 100;
+    font-family: Lato-Light;
+    z-index: 1;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+.progressDate {
+    color: #ae285d;
+    font-size: 12px;
+    padding: 5px 0 0 0;
+    display: block;
+}
+
+.makepayments {
+    display:block;
+}
+    .makepayments li {
+        padding-right: 3rem;
+        display: inline-block;
+        padding-bottom: 3rem;
+    }
+
+    #IframePopup {
+        border: 0;
+        box-shadow: none;
+    }
+
+    #IframePopup body {
+        background: none !important;
+    }
+
+
+.iframeBoxWrap {
+    height: 455px !important;
+    width: 100%;
+}
+.csrBoxWrap .csrBox .linkDiv{
+    float:none;
+    display:block;
+    padding-bottom:0;
+}
+.csrBoxWrap .csrBox .csrLinkDiv{
+    padding:1rem 0;
+}
+    .csrBoxWrap .csrBox .csrLinkDiv a{
+        display:inline-block;
+    }
+    .csrBoxWrap .csrBox .linkDiv .allLink {
+        float: none;
+    }
+.csrBoxWrap .csrlhs{
+    padding-left:0;
+}
+.csrBoxWrap .csrrhs {
+    padding-right: 0;
+}
+.lastpara {
+    margin-bottom: 2rem;
+}
+
+.safecustodytbl .basicList {
+    padding: 0;
+}
+
+.grabDealsShop ul li .knowMoreBox .knowMore a {
+    color: #fff;
+}
+
+.overLay {
+    display: none;
+}
+
+.linkBox {
+    position: fixed;
+    left: -223px;
+    top: 67%;
+    z-index: 99;
+}
+
+    .linkBox span.callback {
+        background: #ae285d;
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        position: absolute;
+        width: 141px;
+        left: 167px;
+        top: 55px;
+        padding: 6px 0px 0px 8px;
+        font-size: 1.6rem;
+        color: #fff;
+        height: 40px;
+    }
+
+    .linkBox span.callback {
+        line-height: 40px;
+        padding: 0 10px;
+    }
+
+        .linkBox span.callback > span {
+            width: 27px;
+            height: 37px;
+            display: inline-block;
+            border-right: 1px solid #fff;
+        }
+
+        .linkBox span.callback span img {
+            width: 100%;
+            height: auto;
+            display: inline-block;
+            margin-left: -6px;
+            margin-top: -8px;
+        }
+
+    .linkBox .callback a {
+        padding: 0;
+        padding-left: 6px;
+    }
+
+    .linkBox .callback a {
+        color: white;
+        text-decoration: none;
+    }
+
+.about_bod_mrb {
+    text-align: justify;
+    font-size: 15px;
+}
+
+    .about_bod_mrb h4 {
+        padding-bottom: 1rem;
+    }
+
+    .about_bod_mrb .imgBlock {
+        padding-bottom: 1rem;
+    }
+
+.guidelinesBox {
+    width: 100%;
+    margin-left: -18px;
+}
+
+
+    .guidelinesBox a {
+        display: inline-block;
+        width: 100%;
+    }
+
+
+.footerMainUl .guidelinesBox a:after {
+    display: none;
+}
+
+.icon-bill-pay {
+    font-size: 26px;
+    color: #ae285d;
+    font-weight: 700;
+}
+
+    .icon-bill-pay:before {
+        content: '\e926';
+    }
+
+.BODnew {
+    padding: 0;
+}
+
+.whiteTextOnly {
+    color: #fff;
+}
+
+.rbiGuide {
+    font-weight: bold;
+}
+
+.noData{
+    font-size:2rem;
+    color:red;
+}
+.grabTabContent .bookTicket ul.newList{
+    float:left;
+}
+.grabTabContent .bookTicket ul.newList li{
+    display:block;
+}
+.grabDealBox .travelContentwrap .tofferExpire .travelTnc {
+    float: right;
+    color: #323232;
+    font-size: 1.2rem;
+    color: #ae285d;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.grabTabContent .offersListing ul.basicList {
+    float: left;
+    margin-top: 0;
+}
+.grabTabContent .offersListing ul.basicList li {
+    padding: 0 0 0 1rem !important;
+    font-size:1.4rem;
+}
+.grabTabContent .promoCode, .grabTabContent .stepAvail {
+    padding: 1rem 0;
+    margin:0;
+}
+.grabTabContent .stepAvail h5{
+    padding-bottom:1.5rem;
+}
+.grabDetailsBox .viewAll:hover{
+   color:#fff;
+}
+.progressUsBox.pgssBoxInner p{
+    font-size:1.5rem;
+}
+
+@media only screen and (max-width: 1199px) {
+    .linkBox .callback {
+        display: none;
+    }
+}
+
+@media (max-width: 880px) {
+
+    .rbiGuide {
+        background: #fff;
+        padding: 15px;
+        line-height: 22px;
+    }
+
+    .apNow {
+        display: block;
+        margin: 10px 0 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .iframeBoxWrap {
+        height: 462px !important;
+        width: 100%;
+    }
+
+    .subIframe .modal-content {
+        width: 100%;
+    }
+
+        .subIframe .modal-content .close {
+            right: 6px;
+            top: 3px;
+        }
+
+    /*.homeBody footer {
+        margin-bottom: 4.6rem !important;
+    }*/
+
+    footer {
+        margin-bottom: 0 !important;
+    }
+
+    .popupWrap .closeBtn {
+        right: 11px;
+    }
+
+    .guidelinesBox {
+        margin: 16px 0 10px 16px;
+    }
+
+    .BODnew .imgBlock {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .iframeBoxWrap {
+        width: 100%;
+    }
+}
+
+.tableWrapper .width10 {
+    width: 10%;
+}
+
+.pfeaturesnbenefits {
+    padding-bottom: 40px !important;
+}
+
+/*.dealPopup {
+    display: none;
+    z-index: 99999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 772px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}*/
+
+#productDealsPopup .modal-content {
+    margin: 17rem auto;
+    width: 772px;
+    padding: 2rem 4rem;
+    display: block;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+}
+
+#productDealsPopup .modal-header {
+    padding: 0;
+    min-height: auto;
+    border-bottom: none;
+}
+
+    #productDealsPopup .modal-header h4 {
+        font-size: 2.2rem;
+        color: #323232;
+        font-weight: Lato-Bold;
+        border-bottom: 5px solid #ae285d;
+        padding-bottom: 1rem;
+    }
+
+#productDealsPopup .modal-body {
+    padding: 1rem 0;
+}
+
+    #productDealsPopup .modal-body p {
+        font-size: 1.5rem;
+        color: #323232;
+        line-height: 2.2rem;
+        padding-bottom: 1rem;
+        display: block;
+    }
+
+#productDealsPopup .btnLinks a {
+    font-size: 1.6rem;
+    color: #ae285d;
+    margin-right: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 6px 12px;
+    vertical-align: middle;
+}
+
+    #productDealsPopup .btnLinks a:hover {
+        background-color: #e6e6e6;
+        text-decoration: none;
+    }
+
+.topMenu .navbarSect ul li .makePaymentMenu {
+    width: 81rem !important;
+}
+
+.popupWrap {
+    width: 800px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    display: none;
+    position: absolute;
+    top: 3%;
+    z-index: 99999;
+}
+
+    .popupWrap .closeBtn {
+        color: #fff;
+        position: absolute;
+        right: -3%;
+        font-size: 3rem;
+        font-family: Lato-Light;
+        top: -17px;
+        cursor: pointer;
+    }
+
+.popOverlay {
+    background: #323232;
+    opacity: 0.8;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    width: 100%;
+    z-index: 9999;
+}
+
+.topMenu .navbarSect ul li .subMenus .blck ul.axisEdge {
+    margin-bottom: 17rem;
+}
+
+.productForUBox .productsList ul li {
+    margin-right: 3px;
+}
+
+.bannerWrapper .onlyHeading h2 {
+    padding-bottom: 8rem;
+}
+
+.clsEmployeeReimbursementAccount {
+    border-top: outset;
+}
+
+
+.topMenu .navbarSect ul li .makePaymentMenu {
+    width: 85rem !important;
+}
+
+.otherInfoBlocks .progressBlog .viewallLink {
+    padding: 0;
+}
+
+.otherInfoBlocks .homeBlg .progressBlog .viewallLink {
+    padding: 0 1rem;
+}
+
+.moreCont .moreContheading {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+.bannerWrapper .bannerText.dvPersonalRewards h2 {
+    color: #fff;
+}
+
+.mediaCenterBod {
+    margin-top: 3%;
+}
+
+.featureBox .contentBox .basicList {
+    width: 90%;
+}
+
+.applyNowBanner picture img {
+    height: 150px;
+}
+
+.retailSection ul li {
+    vertical-align: top;
+}
+
+    .retailSection ul li .loanBox p {
+        min-height: 13rem;
+        width: 100%;
+    }
+
+.sideCompare {
+    z-index: 9999;
+}
+
+.compareBar {
+    color: #fff !important;
+}
+
+.loanDescription h3.titleText {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nilText {
+    display: block;
+    padding: 1rem 0;
+}
+
+.loanDescription .tncBox h3 {
+    margin: 0 0 1.3rem 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-left: 4px;
+}
+
+.orderedList li {
+    padding: 5px 0;
+}
+
+.loanContaint h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.pressReleaseSec h4 {
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+.emiCal .whiteText h3, .whiteText .inpt-statement label, .whiteText .ionSlider .inpt-slider .irs-grid .irs-grid-text, .emiCal .whiteText .finalResult p, .emiCal .whiteText .finalResult p span {
+    color: #fff;
+}
+
+.loanDescription .fdBox h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.depositLockerTable {
+    width: 600px;
+}
+
+.featureBox .contentBox .fdPlusNew {
+    height: 7rem !important;
+}
+
+.productForUBox .productsList ul li.proBigText h4 .nextLine {
+    display: inline-block;
+}
+
+.loanDescription .loanContaint h4 {
+    padding-bottom: 0.8rem;
+    font-size: 1.5rem;
+}
+
+.loanDescription .loanContaint p {
+    padding: 0 0 1rem 0;
+}
+
+.basicList li ul.subList {
+    padding: 0.1rem 0 0 0;
+}
+
+.clsiframeApplyNow {
+    height: 560px;
+}
+
+.loanDescription .loanContaint .EligibilityPadTop {
+    padding: 1rem 0 1rem 0;
+}
+
+.btnBlock .pinkOne {
+    border-radius: 4px;
+    color: #fff;
+    background: #ae285d;
+}
+
+.mainIntroductionText .padBottom0 {
+    padding-bottom: 0;
+}
+
+.grabDealBox.popularEnding .travelImgwrap .endingSoonblock {
+    left: 95px;
+}
+
+.onlyExplore a.eligibiltyCal {
+    width: 100%;
+    border-radius: 0;
+}
+
+.grabTabContent .bookTicket .offersListing {
+    display: inline-block;
+    width: 80%;
+}
+
+.grabTabContent .offersListing ul.basicList li {
+    display: block;
+    padding-bottom: 1rem;
+}
+
+.grabTabContent .offersListing ul.basicList {
+    float: left;
+    margin-top: 0;
+}
+/*media queries start here*/
+
+@font-face {
+    font-family: icomoon;
+    src: url(../font/icomoon1e89.eot?d10e0z);
+    src: url(../font/icomoon1e89.eot?d10e0z#iefix) format("embedded-opentype"),url(../font/icomoon1e89.woff2?d10e0z) format("woff2"),url(../font/icomoon1e89.ttf?d10e0z) format("truetype"),url(../font/icomoon1e89.woff?d10e0z) format("woff"),url(../font/icomoon1e89.svg?d10e0z#icomoon) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media screen and (max-width: 992px) {
+    .loansListWrapper ul.twoProducts li {
+        width: 49%;
+    }
+
+    .emiCal .whiteText h3, .whiteText .inpt-statement label, .whiteText .ionSlider .inpt-slider .irs-grid .irs-grid-text, .emiCal .whiteText .finalResult p, .emiCal .whiteText .finalResult p span {
+        color: #323232;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .grabTabContent .offersListing {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .depositLockerTable {
+        width: 100%;
+    }
+
+    .bannerWrapper .onlyHeading h2 {
+        padding-bottom: 0;
+        padding-top: 5rem;
+        width: 100%;
+    }
+
+    .bannerWrapper .bannerText.onlyHeading .btnBlock {
+        padding-top: 8rem;
+    }
+
+    .mediaCenterBod {
+        margin-top: 20%;
+    }
+
+    .applyNowBanner picture img {
+        height: auto;
+    }
+
+    .retailSection .loanSubmit a.eligibiltyCal {
+        display: inline-block;
+    }
+
+    .retailSection ul li .loanBox p {
+        min-height: auto;
+    }
+
+    .dealPopup {
+        width: 95%;
+    }
+
+    #productDealsPopup .modal-content {
+        width: 100%;
+        padding: 1rem;
+		height: 44rem;
+		overflow-y: scroll;
+    }
+
+    .noLink {
+        pointer-events: none;
+    }
+
+    .bannerWrapper .bannerText.fastForBanner p {
+        width: 100%;
+    }
+
+    .loansListWrapper ul.twoProducts li {
+        width: 43%;
+        margin: 0 1rem;
+    }
+
+    .clsiframeApplyNow {
+        height: 350px;
+        overflow-y: scroll;
+        width: 95%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .bannerWrapper .bannerText.onlyHeading .mobBtnBlock {
+        padding-top: 4rem;
+    }
+
+    .bannerWrapper .bannerText.fastForBanner .btnBlock {
+        padding-top: 0;
+    }
+
+    .popupWrap {
+        width: 100%;
+        transform: none;
+        left: 0;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .loansListWrapper .owl-stage-outer .owl-item {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .bannerWrapper .bannerText.flexiDepositText .btnBlock a.linkBtn {
+        margin-bottom: 0.5rem;
+    }
+}
+
+/*Start my offer banner changes*/
+
+@media only screen and (max-width: 767px) {
+    .relBlock {
+        margin: 2rem auto 0;
+        height: 292px;
+    }
+
+    .cardAnim {
+        top: 3.8rem;
+    }
+
+    .stack {
+        width: 85%;
+        height: 237px;
+    }
+
+    .compareSect .loanDesigned .loanBox ul li.loanAmtHt {
+        height: auto;
+    }
+}
+/*End my offer css changes*/
+
+.equityBox {
+    display: block;
+    padding: 2rem 0;
+}
+
+    .equityBox li {
+        display: inline-block;
+        padding: 0 4rem 0 0;
+    }
+.bannerWrapper .bannerText .redeemTWrap .viewAll {
+    color: #ffffff;
+    font-family: Lato-Bold;
+}
+
+.buisnessBlock a.linkBtn {
+    padding: 1.4rem 0
+}
+
+.tabBox ul li.active a {
+    color: #fff
+}
+
+/*for progress with us*/
+/*.bannerWrapper .bannerText.fastForBanner p {
+    color: #fff;
+}*/
+
+.progressUsSlider li:nth-last-child(2),
+.progressUsSlider li:last-child {
+    margin-bottom: 0;
+}
+
+/*for business bankling*/
+.bannerWrapper .feature.axisWrap.bannerText.fastForBanner p {
+    padding: 1rem 0 2rem;
+}
+
+.loanDescription .equityBox li {
+    padding: 0 4rem 2rem 0;
+}
+
+@media (max-width: 767px) {
+    .topSearchBox .topSearchProg .rgtSide {
+        padding-left: 0rem;
+    }
+
+    .progressUsSlider .owl-carousel .owl-nav .owl-prev {
+        width: 40px;
+    }
+
+    .topSearchProg .rgtSide .socialWrap .socialIcons a {
+        font-size: 1.5rem;
+    }
+
+    .loanSubmit a{
+        width:50%;
+    }
+    .stack__item img
+    {
+        width:93%;
+    }
+    .currAccTableBox .tableBox tr th {
+        width: auto
+    }
+
+    .currAccTableBox .tableBox tr .tableHead table .mainHead td.upperText {
+        height: auto
+    }
+    .topSearchBox .topSearchProg .lthSide img{width:100%;}
+    .topSearchBox .topSearchProg .rgtSide{padding-left:1rem;}
+}
+
+.bannerWrapper .bannerText.fastForBanner .btnBlock{
+  padding-top: 0; 
+}
+
+.progressUsSlider li:nth-last-child(2),
+.progressUsSlider li:last-child {
+    margin-bottom: 0;
+}
+.loanDescription .btnBlock .pinkOne {
+    margin-right: 10px;
+}
+
+.bannerWrapper.busiBannWrap .bannerText.fastForBanner p {
+    color: #ffffff;
+}
+
+/* 28.02.2019 styles */
+@media (max-width: 767px){
+.compareSect .loanDesigned .loanSubmit {
+    margin: 0; 
+}
+  .loanSubmit{
+    width: 100%;
+  }
+  .savingAccBox .compareSect .loanDesigned ul li:nth-child(3n-0) {
+    border-color: #eceaeb;
+}
+.middleFooterCon .links a {
+display: block;
+margin: 0 0 10px;
+}
+
+.bannerWrapper .btnBlock a{
+    padding: 1rem 2rem !important;
+  }
+  .bannerText.fastForBanner.wtText h2.bannerTitle{
+    margin: 35px 0 10px;
+  }
+ .wrapper-content .whatsNew{
+	  bottom:40px;
+	  right:10px;
+  }
+  .wrapper-content .whatsNew img{
+	  width:75px;
+  }
+}
+
+/* 05.03.2019 styles */
+
+@media (max-width: 992px){
+.emibnrOverlay {
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.homeLoanCal.emiCal .emibnrOverlay {
+	background:none;
+}
+.bannerText.fastForBanner.bkText h2.bannerTitle{
+    color: #fff;
+    margin: 35px 0 10px !important;
+  }
+  .bannerWrapper .bannerText.fastForBanner.bkText p{
+	  color:#fff;
+  }
+}
+/* White text */
+.bannerWrapper .bannerText.fastForBanner.wtText p {
+    padding: 0;
+  color: #fff;
+  font-size: 15px;
+      font-family: Lato;
+}
+.bannerText.fastForBanner.wtText h2.bannerTitle{
+  color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    padding: 0;
+  font-family:Lato;
+}
+.bannerWrapper .btnBlock a {
+    padding: 1.4rem 2.2rem;
+    margin: 30px 0 0;
+  /*border-radius: 5px;*/
+}
+
+@media (min-width:768px){
+  .bannerWrapper .bannerText.fastForBanner.wtText p, .bannerWrapper .bannerText.fastForBanner.bkText p {
+  max-width: 36%;
+}
+}
+
+/* Black text */
+.bannerText.fastForBanner.bkText h2.bannerTitle{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    padding: 0;
+  font-family:Lato;
+}
+.bannerWrapper .bannerText.fastForBanner.bkText p {
+  padding: 0;
+  font-size: 15px;
+  font-family: Lato;
+}
+
+ul#ulCreditCard li{
+	position:relative;
+}
+ul#ulCreditCard li .loanSubmit{
+	position:absolute;
+	width:100%;
+	bottom:0;
+}
+.savingAccBox .compareSect .loanDesigned .loanBox .catergoryListing ul li .featureTitle{
+	padding:0 !important;
+	line-height:inherit;
+}
+
+
+.progressUsBox.pgssBoxInner img{
+	max-width:100%;
+	height:auto;
+}
+
+.floaterFilter .nriImg{
+	margin-bottom:30px;
+}
+
+
+/* NRI Layout page start */
+
+.topMenu.buisHeadear .navbarSect ul li.nriGrabdeal{position:static}
+.topMenu.buisHeadear .navbarSect ul li.nriGrabdeal .subMenus {
+    display: none;
+    position: absolute;
+    top: 7.5rem;
+    left: 8rem;
+    z-index: 2;
+    background: #fff;
+    border-top: 2px solid #e0e0e0;
+    width: 100rem;
+    border-radius: 4px;
+  transform:none;
+}
+.topMenu .navbarSect ul li.nriGrabdeal .subMenus .blck {
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+.topMenu .navbarSect ul li.nriGrabdeal .subMenus .sColor{
+    padding: 1rem 4rem 2rem;
+    width: 44rem;}
+
+.topMenu.buisHeadear .navbarSect ul li.nriApply .subMenus.aplnowsbumenus{width:75rem;}
+.topMenu.nriHeader .navbarSect ul li a{
+padding:26px 16px 32px;}
+.topMenu .loginSect a{padding-right:7px;}
+.header-fixed .topMenu .navbarSect ul li .subMenus.busiexplore {
+    top: 7.5rem;
+}
+
+/* NRI Layout page end */
+.checkRateBox .menuBody.fixed h4{
+    margin: 20px 0 0;
+}
+.topMenuNewWrapper .menuBody.fixed .topBorder{
+    border-top: none !important;
+    font-size: 1.8rem;
+    margin-top: 5rem !important;
+}
+.topMenuNewWrapper .menuBody.fixed .depositBox.nriFix{
+padding-bottom: 85px;
+    margin-top: 10px;
+}
+.topMenuNewWrapper .menuHead.setPad{
+	padding:10px 20px 40px;
+}
+.topMenuNewWrapper .menuHead.setPad1{
+	padding:10px 20px 15px;
+}
+
+@media (max-width: 1199px){
+.topMenuNewWrapper .menuBody {
+    padding-top: 8rem;
+    background: 0 0;
+}
+}
+.topMenuNewWrapper .menuBody li {
+    padding: 1rem 0 0 !important;
+}
+
+.nriDepositSec .loanSubmit a{
+   width: 49.5%;
+}
+/*Grabdeals filter mobile view start*/
+
+ @media only screen and (max-width: 991px) {
+    .fillterSec .closebtn:after, .fillterSec .closebtn:before {
+        position: absolute;
+        left: 27px;
+        content: ' ';
+        height: 21px;
+        width: 1px;
+        background-color: #6d6d6d;
+    }
+
+    .fillterSec .closebtn:before {
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+
+
+    .fillterSec .closebtn:after {
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .fillterSec .closebtn {
+		position: absolute;
+		right: 0;
+		top: 4px;
+		z-index: 998;
+		width: 50px;
+		height: 32px;
+	}
+} 
+/*Grabdeals filter mobile view end*/
+
+/*Shareholder -stock info mobile view start*/
+
+
+@media only screen and (max-width: 767px)
+{
+.shareholder .loansListWrapper ul li {
+    width: 50%;
+    display: table-cell;
+    text-align: center;
+    padding: .8rem 0rem;
+}
+
+.shareholder .stockPerfWrap {
+    padding: 0rem 0;
+}
+
+.shareholder .stockInfoWrap .watchContent {
+     margin-top: 0rem; 
+}
+
+.shareholder .tabBox {
+    margin-bottom: 2rem;
+	padding-top: 0rem; 
+}
+.shareholder .loanMenu {
+    padding-bottom: 0;
+}
+
+.shareholder .stockWrap {
+    padding-top: 0rem; 
+}
+
+.shareholder .pressRleaseBox {
+margin-top: 0;
+}
+.shareholder .infoTabWrap .grabTabContent {
+   padding: 0rem 0 0 0;
+}
+.shareholder .investerWrapper .buttonWrap {
+    float: none; 
+}
+}
+/*Shareholder -stock info mobile view end*/
+
+.topMenu .navbarSect ul li .subMenus .tabBar {
+    margin-top: 0;
+}
+.topMenu.buisHeadear .navbarSect ul li .aplAdj{
+    width: 75rem !important;
+}
+.progressUsSlider ul li.col-md-6 {
+    display: inline-block;
+    float: none;
+}
+body .countriesDetailsBox ul.tabMainBox li.active h3 {
+    padding-bottom: 0;
+}
+body .countriesDetailsBox ul.tabMainBox li h3 {
+        padding-bottom: 0;
+}
+.countriesDetailsBox ul.tabMainBox li h3 a{
+    color:unset;
+    color:inherit;
+    text-decoration: none;
+    padding-bottom: 1rem;
+    width: 100%;
+
+}
+
+.bannerWrapper .bannerText.fastForBanner p{
+    padding: 1rem 0 1.5rem;
+}
+
+.bannerWrapper .btnBlock a{
+    margin: 5px 0 0;
+}
+
+a.lnksearchlink{
+	width:400px;
+	display:inline-block;
+}
+/* 22.05.19 */
+.rgtSide.brdNone{
+	border-bottom:none !important;
+}
+/* 03.06.19 */
+.progressUsSlider.mrgTop{
+	margin-top:55px;
+}
+
+/* 13.06.19 */
+.topbandBg{
+	display:none;
+}
+.topMenu .navbarSect ul li .subMenus .blck ul.axisEdge {
+    margin-bottom: 15px !important;
+}
+.topMenu.buisHeadear .navbarSect {
+    margin-left: .8rem;
+}
+ul.savings li div span{
+	bottom:inherit;
+	top:10px;
+	position:relative;
+	font-size:1.5rem !important;
+}
+ul.savings{
+	margin-top:2rem !important;
+}
+ul.savings li div a{
+	bottom:-10px;
+	position:relative;
+}
+ul.savings li div p{
+	padding-top:0;
+}
+ul.savings li .halfHeight{
+	height:7.8rem;
+}
+.topMenuNewWrapper .menuBody.mclrCss li{
+	padding:0 0 5px !important;
+}
+.topMenuNewWrapper .menuHead.setPad1.mt{
+	margin-top:1rem;
+}
+.depositBox.nriDep{
+	padding:0 0 25px;
+}
+.topMenuNewWrapper .menuBody.mclrCss .depositBox{
+	display:block !important;
+}
+.topMenuNewWrapper>div{
+	z-index:99999;
+}
+.checkClose{
+	position:fixed;
+	right:30px;
+	z-index:99;
+}
+.knowSpan{
+	display:inline-block !important;
+	margin-right:30px;
+}
+.innerCmp {
+	padding:0 0 .5rem;
+}
+.innerCmp .SelectedLoan h4{
+	padding:1rem 2rem;
+	width:162px;
+}
+.innerCmp .SelectedLoan h4 .closeW{
+	top:12px;
+}
+
+@media (max-width:991px){
+	.offerWrapper .accordianBox{
+		margin:0;
+	}
+	.offerWrapper .btnBlock{
+		position:inherit;
+	}
+}
+
+.bannernewRap .sideBlock a {
+    margin-top: 0;
+}
+.knowBrdr{
+	border:none  !important;
+	padding:0 !important;
+	margin:0;
+}
+.list-unstyled{
+	z-index:2;
+}
+
+/* 17.07.2019 */
+
+@media (min-width:992px){
+.emiCal .formWrapper {
+    padding-top: 2rem;
+}
+.emiCal picture img {
+    min-height: auto;
+}
+.formWrapper .ionSlider .inpt-slider {
+    height: 50px;
+}
+.formWrapper .inpt-statement label{
+    display: inline-block;
+}
+.formWrapper .inpt-statement .inputBox{
+    border-radius: .3rem;
+    padding: 0;
+    width: 125px;
+}
+.formWrapper .inpt-statement .inputBox .rupee{
+    padding:0;
+    width: 25px;
+    margin-right: 5px;
+}
+.formWrapper .inpt-statement .inputBox input.loanAmt {
+    width: 65%;
+}
+.formWrapper .inpt-statement .inputBox input{
+  padding: 0.2rem 0;
+  display: inline-block;
+}
+.formWrapper .ionSlider .inpt-slider .irs-with-grid {
+    width: 180px;
+    top: -36px;
+    left: 170px;
+}
+.formWrapper .finalResult{
+    margin-top: -10px;
+}
+.emiCal .formWrapper .finalResult .viewAll {
+    width: 125px;
+    left: 45px;
+    padding: 0.5rem 0;
+}
+}
+@media (min-width:1400px){
+.emiCal .formWrapper .bannerText {
+    top: 50px;
+}
+}
+.openFD{
+	font-size: 1.7rem;
+    color: #fff;
+    float: right;
+}
+.openFD:hover{
+    color: #fff;
+}
+@media only screen and (max-width: 767px){
+.openFD{
+ float: none;
+    display: block;
+    margin-top: .5rem;
+}
+}
+.maroontheme .topBand .navbar-nav.navbar-right a em.icon_locator {
+    background: url(../images/sprite.png) no-repeat -75px -19823px;
+}
+.gtabOfferwrap .tabBox .loansListWrapper .checkBox-line label .listIcon:before {
+ width: 60px;
+height: 60px; 
+display: block; 
+margin: 0 auto; 
+position: relative; 
+top: -15px; 
+left: 0;
+}
+
+/* Subscribe Band */
+.subscribeBand {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+z-index: 12;
+display:none;
+}
+.panel-controller {
+position: relative;
+width: 100%;
+}
+.tab-controller {
+padding: 10px 10px 5px;
+position: relative;
+}
+.tab-controller * {
+display: none !important;
+font-size: 13px;
+font-weight: bold;
+color: #861f41;
+cursor: pointer;
+background: #fff;
+border-radius: 50px;
+line-height: 1.5 !important;
+width: 20px;
+height: 20px;
+text-align: center;
+}
+/*tab-controller .scribe-show{
+  display: none;
+}*/
+/*.tab-controller .scribeClose {
+display: none;
+}*/
+/*.panel-content {
+ height: 105px;
+}
+*/
+.otherInfoBlocks .calcEase ul li a{
+  padding: 6px;
+}
+a.openDem{
+  background: #97144c;
+    color: #fff;
+    text-align: center;
+  text-decoration:none;
+}
+.demImg{
+  margin: 0 5px;
+}
+.js-Mrates{
+   padding: 0 10px 10px !important;
+}
+.ratesCharm ul li span {
+    padding-bottom: 0;
+}
+.ratesCharm ul li{
+   margin: 0rem 2rem;
+}
+
+/* 30.09.2019 */
+.accessibility .wob .topBand .navbar-nav a .dwnNor, .maroontheme .topBand .navbar-nav a .dwnCont, .accessibility .wob .ahaBurg, .accessibility .home .ahaCont{
+	display:none;
+}
+.accessibility .wob .topBand .navbar-nav a .dwnCont, .accessibility .wob .ahaCont{
+	display:block;
+}
+.download img.dwnNor{
+	width: auto !important;
+}
+
+@media (max-width: 767px){
+  .subscribeBand{
+    z-index:9999;
+  }
+  .tab-controller .scribeClose{
+    display:block;
+    background:#fff;
+    border:solid 1px #861f41;
+    border-radius: 50px;
+    color:#861f41;
+    font-size:13px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+  }
+.tab-controller .scribe-show, .subscribeBand {
+display: none;
+}
+.tab-controller {
+  padding: 0px;
+}
+
+.panel-content, .panel-content iframe {
+ height: 300px;
+}
+  .scribe-close {
+    right: 10px;
+    top: 5px;
+}
+}
+@media (max-width:767px){
+	.tab-controller *{
+	    width: auto;
+	    height: auto;
+	    font-size: 12px;
+	    color: #fff;
+	    padding: 5px 5px;
+	    background: #861f41;
+	    border-radius: 10px 10px 0 0;
+	    font-weight: normal;
+	}
+}
+.panel-content {
+    height: 120px;
+}
+
+@media (max-width: 992px){
+    .panel-content, .panel-content iframe {
+        height: 68px;
+    }
+    .bndClose *{
+        display: none;
+    }
+}
