@@ -520,30 +520,12 @@ a.close:hover {
 </style><meta name="Generator" content="Sitefinity 10.2.6630.0 PU" /><link rel="canonical" href="index.html" /><meta name="description" content="We are third largest private sector bank in India offering entire spectrum of financial services for personal &amp; corporate banking." /><meta name="keywords" content="bfss bank, online banking, internet banking, personal banking, corporate, nri, bank, banking services" /></head>
 
 
-<body class="homeBody home"> <!-- Google Tag Manager (noscript) --> <noscript> </noscript> <!-- End Google Tag Manager (noscript) --> <!--.master--> <header class="headerSection">
-<!--  <div class="topStrip"><div class="container"><div class="showOnTabBlock"><a class="viewAll showOnTab" href="https://retail.bfssbank.co.in/wps/portal/rBanking/bfssebanking/bfssRetailLogin/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKNAzxMjIwNjLwsQp0MDBw9PUOd3HwdDQwMjIEKIoEKDHAARwNC-sP1o_ArMYIqwGNFQW6EQaajoiIAVNL82A!!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/?_ga=2.183015270.1393160254.1558520547-1935754415.1558520547" target="_blank">Personal Login</a>
-<a class="viewAll showOnTab" href="https://corporate.bfssbank.co.in/wps/portal/cBanking/bfsscbanking/bfssCorporateLogin/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKNAzxMjIwNjLwszI0cDRw9PU3dw3xcjP19TIAKIoEKDHAARwNC-sP1o_AqMTWFKsBjRUFuhEGmo6IiACFl0ps!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/?_ga=2.183015270.1393160254.1558520547-1935754415.1558520547" target="_blank">Business Login</a>
-</div><div class="row"><div class="col-md-12"><ul><li><a href="#mainContentWrap">Skip to Main Content</a></li><li class="fontResize"><div class="textResizeWrapper" id="accessControl"><input class="fontScaler smallFont" title="Decrease Font Size" type="submit" value="A-" /><input class="fontScaler normalFont current" title="Normal Font Size" type="submit" value="A" /><input class="fontScaler largeFont" title="Increase Font Size" type="submit" value="A+" /><div class="contrastView"><input class="contrastChanger normal" title="Standard View" type="submit" value="A" /><input class="contrastChanger wob" title="High Contrast View" type="submit" value="A" /></div></div></li></ul></div></div></div></div> -->
+<body class="homeBody home"> 
 
 
 
 
 
-<script type="text/javascript">
-$(document).ready(function () {
-$('a[href^="https://"]').each(function () {
-var oldUrl = $(this).attr("href"); // Get current url
-var newUrl = oldUrl.replace("https://application.bfssbank.com/", "https://application.bfssbank.co.in/"); // Create new url
-$(this).attr("href", newUrl); // Set herf value
-});
-$('a[data-href^="https://"]').each(function () {
-var oldUrl = $(this).attr("data-href"); // Get current url
-var newUrl = oldUrl.replace("https://application.bfssbank.com/", "https://application.bfssbank.co.in/"); // Create new url
-$(this).attr("data-href", newUrl); // Set herf value
-});
-
-});
-</script>
 <div class="topMenuNewWrapper">
   <div class="checkRateBox topH" tabindex="0">
     <div class="container">
@@ -863,9 +845,9 @@ to personalize your website experience.</p> </div> <div class="closeBand">
 <div class="subMenus lngMenus js-lngMenu"><div class="exmTab exmenuTab1"><div class="mainSect">
 <div class="fLevel">
   <ul class="exploreList js-exploreList">
-    <li class="active" data-type="accounts"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Accounts" href="" onclick="gotoLink(this);" title="list of 11 Types of accounts">Accounts</a></li><li data-type="deposits"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Deposits" href="" onclick="gotoLink(this);" title="list of 6 Types of Deposits">Saving Account</a></li>
+    <li class="active" data-type="accounts"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Accounts" href="deposit_account.php" onclick="gotoLink(this);" title="list of 11 Types of accounts">Depost Account</a></li><li data-type="deposits"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Deposits" href="saving_account.php" onclick="gotoLink(this);" title="list of 6 Types of Deposits">Saving Account</a></li>
     <li data-type="cards"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Cards" href="" onclick="gotoLink(this);" title="list of 7 Types of Cards"> Fixed Deposit</a></li>
-    <li data-type="loans"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Loans" href="" onclick="gotoLink(this);" title="list of 12 Types of Loans">Recurring Deposit</a></li>
+    <li data-type="loans"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Loans" href="recurring_deposit_account.php" onclick="gotoLink(this);" title="list of 12 Types of Loans">Recurring Deposit</a></li>
     <li data-type="forex"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Forex" href="" onclick="gotoLink(this);" title="list of 6 Types of Forex">Systematic Investment Plan</a></li>
    </ul></div>
 </div></div></div></li>
@@ -875,7 +857,7 @@ to personalize your website experience.</p> </div> <div class="closeBand">
 <div class="subMenus lngMenus js-lngMenu"><div class="exmTab exmenuTab1"><div class="mainSect">
 <div class="fLevel">
   <ul class="exploreList js-exploreList">
-  <li data-type="deposits"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Deposits" href="" onclick="gotoLink(this);" title="list of 6 Types of Deposits">Gold Loan</a></li>
+  <li data-type="deposits"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Deposits" href="Gold_loan.php" onclick="gotoLink(this);" title="list of 6 Types of Deposits">Gold Loan</a></li>
     <li data-type="cards"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Cards" href="" onclick="gotoLink(this);" title="list of 7 Types of Cards"> Secured loan</a></li>
     <li data-type="loans"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Loans" href="" onclick="gotoLink(this);" title="list of 12 Types of Loans">Mortgage Loan</a></li>
     <li data-type="forex"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Forex" href="" onclick="gotoLink(this);" title="list of 6 Types of Forex">Personal Loan</a></li>
