@@ -23,7 +23,7 @@
  </li><!--<li>
                                     <a href="/about-us/business-overview">Business Overview</a>
                                 </li>-->
- <li><a href="" rel="nofollow">Vision and Values</a>
+ <li><a href="mission.php" rel="nofollow">Vision and Mission</a>
 
  </li><li><a href="" rel="nofollow">Press release</a>
  </li><li><a href="" rel="nofollow">Gallery</a>
@@ -31,7 +31,7 @@
  </li><!--<li>
                                     <a href="/faq">FAQs</a>
                                 </li>-->
- <li><a href="">Careers</a>
+ <li><a href="career.php">Careers</a>
  </li><li><a href="">Download Forms</a>
  </li><!--<li>
                                     <a href="/webforms/social-media/social-media">Social media</a>

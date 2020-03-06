@@ -53,7 +53,7 @@
 <h2><strong>Products </strong>to meet your life goals</h2>
 <ul>
 <li>
-<a data-event="Product Offering" data-eventaction="Savings Account" data-eventcategory="Product offered by us" data-eventlabel="" href=""
+<a data-event="Product Offering" data-eventaction="Savings Account" data-eventcategory="Product offered by us" data-eventlabel="" href="saving_account.php" target="_blank"
 onclick="gotoLink(this);">
 <div class="productBox"><span class="savingAcBg"></span>
 <h4>Savings Account</h4>
@@ -61,7 +61,7 @@ onclick="gotoLink(this);">
 </a>
 </li>
 <li>
-<a data-event="Product Offering" data-eventaction="Credit Cards" data-eventcategory="Product offered by us" data-eventlabel="" href=""
+<a data-event="Product Offering" data-eventaction="Credit Cards" data-eventcategory="Product offered by us" data-eventlabel="" href="fixed_deposit.php"target="_blank"
 onclick="gotoLink(this);">
 <div class="productBox"><span class="ccBg"></span>
 <h4>Fixed Deposit </h4>
@@ -69,7 +69,7 @@ onclick="gotoLink(this);">
 </a>
 </li>
 <li>
-<a data-event="Product Offering" data-eventaction="Fixed Deposits" data-eventcategory="Product offered by us" data-eventlabel="" href=""
+<a data-event="Product Offering" data-eventaction="Fixed Deposits" data-eventcategory="Product offered by us" data-eventlabel="" href="recurring_deposit_account.php" target="_blank"
 onclick="gotoLink(this);">
 <div class="productBox"><span class="fdBg"></span>
 <h4>Recurring Deposit</h4>

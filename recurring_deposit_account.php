@@ -1,60 +1,145 @@
 <?php include 'header.php'; ?>
 
+<div class="fluid-container ">
+<div class="row">
+<div class="col-md-12">
+<img src="img/recurring_deposit.png" alt="" style="width:100%;"> 
+</div>
+</div>
+</div>
+
+
 <div class="container ">
     <div class="row" style="margin: 5% auto;">
-<h2>Recurring Depost Account</h2> 
-	<p>BFSS Recurring Deposits help you save for your future by making regular investments of small
-amounts of money.</p>
+<h2>Recurring Deposit Account</h2> 
+	<p>Recurring Deposit is a product to provide a person with an opportunity to build up saving through regular
+monthly deposits of fixed sum over a period of time.</p>
 
-<p>
-You can choose how much you wish to invest and start building your future. Recurring deposits are
-a great way to create a large corpus over time, and build the savings habit and discipline. With Bfss
-Recurring Deposits, you are on the right track to financial planning and security.</p>
+<strong class="subheading">Every Drop Counts...</strong>
+
+<table class="table table-bordered ">
+<tr>
+    <th>Scheme</th>
+    <td>
+    
+        <li>  An ideal way to plan for the future needs. Best way to save a fixed sum every month for a fixed period</li>
+        <li>And get a lump sum amount on maturity, along with interest rate payable for term deposit.</li>
+    
+    </td>
+</tr>
+
+
+<tr>
+    <th>Who can open </th>
+    <td>
+    
+        <li> An Individual in his/her own name.</li>
+        <li>Individuals in their joint names with suitable repayment instructions.</li>
+        <LI>Minor represented by parents / guardian.</LI>
+    
+    </td>
+</tr>
+
+
+<tr>
+    <th>Period of Investment</th>
+    <td>
+    
+        <li>  12 months to 120 months.</li>
+    
+    </td>
+</tr>
+
+
+<tr>
+    <th>Amount of Deposit</th>
+    <td>
+    
+        <li>  Minimum Rs.1500/- per month.</li>
+        <li>Deposit to be made in multiples of Rs.100/-, subject to the minimum amount.</li>
+        <LI>No Maximum Limit on deposit.</LI>
+    
+    </td>
+</tr>
+
+
+<tr>
+    <th>Rate of Interest</th>
+    <td>
+    
+        <li>  The rate of interest depends on the period of deposit, payable at the rate as decided by the Bank from time to time.</li>
+        <li></li>
+    
+    </td>
+</tr>
+
+
+<tr>
+    <th>Interest Payment
+Frequency</th>
+    <td>
+    
+        <li>Interest is compounded on quarterly basis, credited to the account at the end of every financial year and paid on maturity.</li>
+      
+    
+    </td>
+</tr>
+
+
+<tr>
+    <th>Penalty</th>
+    <td>
+    
+        <li>  Penalty @ Rs. 100/- per month is applicable, if any installment is not paid for the relevant month.</li>   
+    
+    </td>
+</tr>
+<tr>
+    <th>TDS on Interest
+Amount</th>
+    <td>
+    
+        <li>  TDS is applicable as per norms.</li>   
+    
+    </td>
+</tr>
+
+<tr>
+    <th>Add-ons</th>
+    <td>
+    
+        <li>  Nomination facility</li> 
+ <li>  No Premature closure facility .</li> 
+ <li>  Loan facility up to 80% on the deposit</li>   
+    
+    </td>
+</tr>
+
+</table>
+
 <br>
-<h3>Recurring Deposit</h3>
-<br>
-<strong>Set aside a fixed amount every month and build a sizeable corpus</strong>
-<li>Start investing with amounts as small ₹ 1,000</li>
-<li>Enjoy interest rates similar to fixed deposits</li>
-<li>Choose a tenure from one year to ten years</li>
-
-
-
-
-
-<br>
-<strong>Payment of Installment:</strong>
-<li>The installment amount once fixed cannot be altered at any later date.</li>
-<li>In case of more than one installment being overdue at the time of payment upto 12 installments
-can be recovered from the linked account if sufficient balance is available.</li>
-<li>If more than one installment is overdue at the time of payment, the paid installment, if sufficient to
-cover only that one installment will be appropriated towards the first or earliest installment
-overdue.</li>
+<strong>Terms and Condition:</strong>
+<li>No Premature Closure available..</li>
+<li>The interest shall be 0.50% or 1% below the rate applicable at the time of Deposits for the period
+Deposit remained with the Bank or 0.50% or 1% below the contracted rate, whichever is lower.</li>
+<li>However, no interest will be paid on Deposits which remain for a period of less than 12 months.</li>
 <li>Partial payment of installments will not be permitted.</li>
-<strong>Lock in Period</strong>
-<li>The Recurring Deposit account has a minimum lock-in period of six months.</li>
-<li>In the case of premature closure before 6 months, no interest shall be paid to the depositor and
-only his principal amount shall be returned with 2% of deduction.</li>
+
+<li>TDS is applicable as per Income Tax Rules.</li>
+<li>Form 15G/H can be submitted by the Depositor to get exemption from tax deduction as per
+Income Tax Rules.</li>
+<li>In case six consecutive installments are not received, the account shall prematurely be closed
+and balance paid to the account holder with some deduction as per rule.</li>
+<li>Instructions for disposal of maturity proceeds are accepted at the time of opening of accounts.</li>
+<li>Nomination : Available</li>
+<li>Universal Passbook will be issued.</li>
+<li>Loans/OD up to 80% of deposited amount available</li>
+<li>Transferability among our Branches : Allowed</li>
+<li>Rate of Interest as applicable to Term Deposit</li>
+<li>The rate applicable to all Senior Citizens of age 60 years and above will be 0.50% above the
+applicable rate</li>
 
 
-
-<br>
-<strong>Maturity:</strong>
-<li>Interest is paid only on maturity.</li>
-<li>The Deposit shall be due for repayment and shall mature on completion of the contracted tenure,
-even if there are installments still to be paid.</li>
-
-<li>The maturity amount mentioned on the Recurring deposit confirmation advice is subject to the
-payment of all installments on time
-</li>
-<li>In case of any delay in the payment of scheduled installments, the maturity amount shall change</li>
-
-
-<br>
-<strong>Overdue Installments:</strong>
-<li>If frequent defaults (non-payments) are observed in monthly installments, and six installments fall
-in arrears, the Bfss has right to close the RD account. The interest rate applicable on such closed
-accounts will be as per the premature withdrawal policy of the company..</li>
 
 
 

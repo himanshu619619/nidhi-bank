@@ -1,8 +1,18 @@
 <?php include 'header.php'; ?>
 
+<div class="fluid-container ">
+<div class="row">
+<div class="col-md-12">
+<img src="img/deposit_bank.png" alt="" style="width:100%;"> 
+</div>
+</div>
+</div>
 <div class="container ">
     <div class="row" style="margin: 5% auto;">
-<h2>Depost Account</h2> 
+<div class="col-md-12">
+
+
+<h2>Deposit Account</h2> 
 	<p>BFSS Deposits are right for you to build a corpus of funds over time or grow money you have
 already saved up.</p>
 
@@ -43,7 +53,7 @@ Saver that allow you to earn.</p>
 <li>Authorised signatories’ signatures</li>
 
 
-
+</div>
     </div>
 </div>
 <?php include 'footer.php'; ?>

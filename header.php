@@ -3,7 +3,7 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head> <title>
 	BFSS Nidhi Bank |
-</title> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge "> <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0"> <link rel="icon" href="img/favi.png" type="image/gif"> <link href="assets/css/bootstrap.css" rel="stylesheet"/> <link href="assets/css/global.css" rel="stylesheet"/> <link href="assets/css/home.css" rel="stylesheet"/> <link href="css/star-rating.css" rel="stylesheet"/> <link href="assets/customcss/mystyle.css" rel="stylesheet"/> <link href="assets/customcss/SearchRevamp.css" rel="stylesheet"/> <link href="assets/css/accessibility.css" rel="stylesheet"/> <link href="assets/css/expProd.css" rel="stylesheet"/> <script src="assets/js/vendor.js"></script> <style type="text/css" media="all">.topMenu .loginSect a{padding-right:7px;}
+</title> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge "> <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0"> <link rel="icon" href="img/favi.png" type="image/gif"> <link href="assets/css/bootstrap.css" rel="stylesheet"/> <link href="assets/css/global.css" rel="stylesheet"/> <link href="assets/css/home.css" rel="stylesheet"/> <link href="css/star-rating.css" rel="stylesheet"/> <link href="css/style.css" rel="stylesheet"/> <link href="assets/customcss/SearchRevamp.css" rel="stylesheet"/> <link href="assets/css/accessibility.css" rel="stylesheet"/> <link href="assets/css/expProd.css" rel="stylesheet"/> <script src="assets/js/vendor.js"></script> <style type="text/css" media="all">.topMenu .loginSect a{padding-right:7px;}
 #HomePageStrip{display:block !important;
 z-index: 20000;
     position: relative;}
@@ -845,8 +845,10 @@ to personalize your website experience.</p> </div> <div class="closeBand">
 <div class="subMenus lngMenus js-lngMenu"><div class="exmTab exmenuTab1"><div class="mainSect">
 <div class="fLevel">
   <ul class="exploreList js-exploreList">
-    <li class="active" data-type="accounts"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Accounts" href="deposit_account.php" onclick="gotoLink(this);" title="list of 11 Types of accounts">Depost Account</a></li><li data-type="deposits"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Deposits" href="saving_account.php" onclick="gotoLink(this);" title="list of 6 Types of Deposits">Saving Account</a></li>
-    <li data-type="cards"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Cards" href="" onclick="gotoLink(this);" title="list of 7 Types of Cards"> Fixed Deposit</a></li>
+    <!-- <li class="active" data-type="accounts"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Accounts" href="deposit_account.php" onclick="gotoLink(this);" title="list of 11 Types of accounts">Depost Account</a></li> -->
+    
+    <li data-type="deposits" class="active"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Deposits" href="saving_account.php" onclick="gotoLink(this);" title="list of 6 Types of Deposits">Saving Account</a></li>
+    <li data-type="cards"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Cards" href="fixed_deposit.php" onclick="gotoLink(this);" title="list of 7 Types of Cards"> Fixed Deposit</a></li>
     <li data-type="loans"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Loans" href="recurring_deposit_account.php" onclick="gotoLink(this);" title="list of 12 Types of Loans">Recurring Deposit</a></li>
     <li data-type="forex"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Forex" href="" onclick="gotoLink(this);" title="list of 6 Types of Forex">Systematic Investment Plan</a></li>
    </ul></div>
@@ -873,12 +875,12 @@ to personalize your website experience.</p> </div> <div class="closeBand">
    </ul></div>
 </div></div></div></li>
  
-<li class="fleft"><a class="mLnkS" href="#">Apply for Membership </a>
+<li class="fleft"><a class="mLnkS" href="online_apply.php">Apply for Membership </a>
 
 </li>
 <li class="fleft"><a class="mLnkS" href="about-us.php">About Us</a>
 <li class="fleft"><a class="mLnkS" href="contact.php">Contact Us</a></li>
-<li class="fleft"><a class="mLnkS" href="">Apply Now</a>
+<!-- <li class="fleft"><a class="mLnkS" href="">Apply Now</a> -->
 
 
 

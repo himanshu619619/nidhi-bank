@@ -1,4 +1,12 @@
 <?php include 'header.php'; ?>
+
+<div class="fluid-container ">
+<div class="row">
+<div class="col-md-12">
+<img src="img/gold_loan.png" alt="" style="width:100%;"> 
+</div>
+</div>
+</div>
 <div class="container ">
     <div class="row" style="margin: 5% auto;">
 
