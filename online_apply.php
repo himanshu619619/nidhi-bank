@@ -14,7 +14,7 @@
 <!-- <h2>Carrers</h2> -->
 <h3>
 </h3>
-            <p >
+            <p>
             Please fill in the following form to apply for our products and services. Our executives
             will get in touch with you to help you out.</p>
             
@@ -47,8 +47,8 @@
   </div>
 
   <div class="form-group">
-    <label for="exampleInputEmail1">Mobile No.</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Mobile">
+    <label for="exampleInputEmail1">City </label>
+    <input type="text" name="city" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Mobile">
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
   
