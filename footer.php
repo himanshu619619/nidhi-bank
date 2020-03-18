@@ -4,7 +4,7 @@
 
 
 
- <footer><div class="footerUpSec"><div class="container"><div class="row"><div class="col-md-12"><ul class="footerMainUl"><li class="col"><h3 class="js-accordMob closeTab mobAccord"><a class="noLink" href="contact-us.html">CONTACT US </a>
+ <footer><div class="footerUpSec"><div class="container"><div class="row"><div class="col-md-12"><ul class="footerMainUl"><li class="col"><h3 class="js-accordMob closeTab mobAccord"><a class="noLink" href="contact.php">CONTACT US </a>
  </h3><ul><li><p><a data-tel="1800-419-5959" href="#" title=" to get your Account Balance">Call: +91 80063 97207</a>
  <br>For any inquiry</p></li><li><a href="">Find your Nearest Branch</a>
  </li><li><a href="" rel="nofollow">Complaints and Grievance Redressal</a>
@@ -18,7 +18,7 @@
  </li><li><a href="" rel="nofollow">Compliance Calendar</a>
  </li><li><a href="" rel="nofollow">Investor FAQs</a>
  </li><li><a href="" rel="nofollow">Investor Contacts</a>
- </li></ul></li><li class="col"><h3 class="js-accordMob closeTab mobAccord"><a class="noLink" href="about-us.html">MEDIA CENTER</a>
+ </li></ul></li><li class="col"><h3 class="js-accordMob closeTab mobAccord"><a class="noLink" href="about-us.php">MEDIA CENTER</a>
  </h3><ul><li><a href="" rel="nofollow">Corporate Profile</a>
  </li><!--<li>
                                     <a href="/about-us/business-overview">Business Overview</a>
@@ -61,11 +61,11 @@
  
  
  </div></li><li><h3 class="js-accordMob closeTab mobAccord" id="calcLbl"><a href="">Calculators</a></h3><div aria-labelledby="calcLbl" class="links" role="group"><a href="">Personal Loan EMI Calculator,</a>
- <a href="">Home Loan EMI Calculator,</a><a href="retail/calculators/fd-calculator.html">FD Calculator, </a>
+ <a href="">Home Loan EMI Calculator,</a><a href="">FD Calculator, </a>
  <a href="">RD Calculator, </a>
  
 
-<a href="emi-calculator.html">EMI Calculator</a>
+<a href="">EMI Calculator</a>
  </div></li>
 
 

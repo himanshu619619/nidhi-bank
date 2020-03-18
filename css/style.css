@@ -2782,4 +2782,4 @@ top: 0;
 }
 
 .subheading{text-transform: uppercase; text-decoration: underline; color:var(--primarycolor);}
-/* Naveen - 11.07.2018 - Disclaimer PopUp END */    
+.form-group textarea, .form-group input, .form-group select{border:1px double  black; border-radius:10px; background:lightgray;} 
