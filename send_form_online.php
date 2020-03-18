@@ -5,7 +5,7 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "himanshu@7continentsmedia.com, admin@bfssnidhi.in";
-    $email_subject= "BFSS Contact Detail Fill by contact form";
+    $email_subject= "BFSS Contact Detail Fill by  Online Apply";
  
     function died($error) {
         // your error code can go here
@@ -29,7 +29,7 @@ if(isset($_POST['email'])) {
  
     $first_name = $_POST['name']; // required
     $email_from = $_POST['email']; // required
-    $message = $_POST['message']; // not required
+    $city = $_POST['city']; // not required
     $phone = $_POST['phone'];
  
     $error_message = "";
@@ -69,7 +69,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Subject: ".clean_string($email_subject)."\n";
   
-    $email_message .= "message: ".clean_string($message)."\n";
+    $email_message .= "message: ".clean_string($city)."\n";
  
 // create email headers
 $headers = 'From: '.$email_from."\r\n".

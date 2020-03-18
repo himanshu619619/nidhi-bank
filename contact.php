@@ -57,6 +57,7 @@ dataType: "html",
 data: form.serialize(),
 success : function(data){
   $(".shows").show();
+  $(".shows").fadeOut(6000);
 
 } ,
         error: function() { alert("Error posting feed."); }

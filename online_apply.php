@@ -27,32 +27,32 @@
 </div>
 
 	<div class="col-md-8 " >
-	<form>
+	<form method="post" id="contact">
 <h2> Please fill in the below details.</h2>
 
- 
+  
 
 		  <div class="form-group">
     <label for="exampleInputPassword1">Name</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Name">
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Name">
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Mobile</label>
-    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Mobile">
+    <input type="number" class="form-control" id="exampleInputPassword1" placeholder=" Enter Mobile">
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter address">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email address">
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
 
   <div class="form-group">
     <label for="exampleInputEmail1">City </label>
-    <input type="text" name="city" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Mobile">
+    <input type="text" name="city" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter City">
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
   
-
+  <p style="display:none;" class="alert alert-success shows">Success! </p>
 
 
  
@@ -69,3 +69,31 @@
 </div></div>
 
 <?php include 'footer.php'; ?>
+
+
+<script>
+$('form#contact').submit(function(e) {
+
+var form = $(this);
+
+e.preventDefault();
+
+$.ajax({
+type: "POST",
+url: "send_form_online.php",
+dataType: "html",
+data: form.serialize(),
+success : function(data){
+  $(".shows").show();
+  $(".shows").fadeOut(6000);
+
+} ,
+        error: function() { alert("Error posting feed."); }
+
+});
+
+
+}); 
+
+
+</script>
