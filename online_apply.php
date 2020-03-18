@@ -34,15 +34,15 @@
 
 		  <div class="form-group">
     <label for="exampleInputPassword1">Name</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Name">
+    <input type="text" class="form-control" name="name" id="exampleInputPassword1" placeholder="Enter Name">
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Mobile</label>
-    <input type="number" class="form-control" id="exampleInputPassword1" placeholder=" Enter Mobile">
+    <input type="number" class="form-control" name="phone"  id="exampleInputPassword1" placeholder=" Enter Mobile">
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email address">
+    <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email address">
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
 
