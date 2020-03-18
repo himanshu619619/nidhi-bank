@@ -47,7 +47,7 @@
 $('form#contact').submit(function(e) {
 
 var form = $(this);
-alert(form);
+
 e.preventDefault();
 
 $.ajax({
@@ -57,7 +57,7 @@ dataType: "html",
 data: form.serialize(),
 success : function(data){
   $(".shows").show();
-  alert(data);
+
 } ,
         error: function() { alert("Error posting feed."); }
 
