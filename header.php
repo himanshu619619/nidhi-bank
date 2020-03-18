@@ -850,7 +850,7 @@ to personalize your website experience.</p> </div> <div class="closeBand">
     <li data-type="deposits" class="active"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Deposits" href="saving_account.php" onclick="gotoLink(this);" title="list of 6 Types of Deposits">Saving Account</a></li>
     <li data-type="cards"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Cards" href="fixed_deposit.php" onclick="gotoLink(this);" title="list of 7 Types of Cards"> Fixed Deposit</a></li>
     <li data-type="loans"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Loans" href="recurring_deposit_account.php" onclick="gotoLink(this);" title="list of 12 Types of Loans">Recurring Deposit</a></li>
-    <li data-type="forex"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Forex" href="" onclick="gotoLink(this);" title="list of 6 Types of Forex">Systematic Investment Plan</a></li>
+    <li data-type="forex"><a data-event="Top Navigation" data-eventaction="Retail" data-eventcategory="Explore Products" data-eventlabel="Forex" href="systematic_investment_plan.php" onclick="gotoLink(this);" title="list of 6 Types of Forex">Systematic Investment Plan</a></li>
    </ul></div>
 </div></div></div></li>
 

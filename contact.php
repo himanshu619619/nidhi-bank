@@ -4,23 +4,23 @@
 <div class="row" style="margin: 5% auto;">
 
 	<div class="col-md-6 " >
-	<form>
+	<form action="send_form_email.php" method="post">
 
 <div class="form-group">
     <label for="exampleInputPassword1">Message</label>
-  <textarea class="form-control" placeholder="Enter your Message">  </textarea>
+  <textarea class="form-control" placeholder="Enter Message" name="message">  </textarea>
   </div>
 		  <div class="form-group">
     <label for="exampleInputPassword1">Name</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <input type="text" class="form-control" name="name" id="exampleInputPassword1" placeholder="Name">
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Mobile</label>
-    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <input type="text" class="form-control" name="phone" id="exampleInputPassword1" placeholder="Mobile">
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
 

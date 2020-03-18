@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/shivamas/vishnupandey.in/bfss
+    - /bin/cp index.php $DEPLOYPATH
+   
