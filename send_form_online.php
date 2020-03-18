@@ -69,7 +69,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Subject: ".clean_string($email_subject)."\n";
   
-    $email_message .= "message: ".clean_string($city)."\n";
+    $email_message .= "City: ".clean_string($city)."\n";
  
 // create email headers
 $headers = 'From: '.$email_from."\r\n".
