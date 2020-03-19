@@ -107,7 +107,7 @@ if(isset($_POST['email'])) {
     $email_message .= "state: ".clean_string($state)."\n";
     $email_message .= "country: ".clean_string($country)."\n";
     $email_message .= "resume: ".clean_string($resume)."\n";
-    $email_message .= "total_experience: ".clean_string($total_experience)."\n";
+    $email_message .= "total_experience: /uploads/".clean_string($total_experience)."\n";
  
 // create email headers
 $headers = 'From: '.$email_from."\r\n".
