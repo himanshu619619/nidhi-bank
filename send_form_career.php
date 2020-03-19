@@ -1,6 +1,6 @@
 <?php
 
-//  print_r($_POST); exit();
+//  print_r($_FILES); exit();
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED

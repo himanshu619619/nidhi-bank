@@ -37,7 +37,7 @@
 </div>
 
 	<div class="col-md-8 " >
-	<form  action="" method="post" enctype="multipart/form-data" id="contact">
+	<form  action="#" method="post" enctype="multipart/form-data" id="contact">
 <h2> Please fill in the below details.</h2>
 <div class="form-group">
     <label for="exampleInputPassword1">Position applied as*</label>
@@ -192,9 +192,13 @@ $.ajax({
 type: "post",
 url: "send_form_career.php",
 dataType: "html",
+async: false,
+cache: false,
+contentType: false,
+processData: false,
 data: form.serialize(),
 success: function(data){
-  // alert(data);
+   alert(data);
   $(".shows").show();
   $(".shows").fadeOut(6000);
 
