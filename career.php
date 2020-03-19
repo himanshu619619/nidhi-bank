@@ -37,11 +37,11 @@
 </div>
 
 	<div class="col-md-8 " >
-	<form>
+	<form method="post" id="contact">
 <h2> Please fill in the below details.</h2>
 <div class="form-group">
     <label for="exampleInputPassword1">Position applied as*</label>
- <select name="position_as" id="" class="form-control">
+ <select name="position_as" id="" class="form-control" required>
  <option value="">Select Position As</option>
  <option value="Fresher">Fresher</option>
  <option value="Experienced">Experienced</option>
@@ -82,23 +82,19 @@
 
 		  <div class="form-group">
     <label for="exampleInputPassword1">Name</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Name">
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Name" name="name" required>
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Mobile</label>
-    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Mobile">
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Mobile" name="mobile" required>
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter address">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter address" name="email" required>
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
 
-  <div class="form-group">
-    <label for="exampleInputEmail1">Mobile No.</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Mobile">
-    <small id="emailHelp" class="form-text text-muted"></small>
-  </div>
+  
   <div class="form-group">
   <label for="exampleInputEmail1">Country</label>
   <select name="country" class="countries form-control" id="countryId">
@@ -119,55 +115,55 @@
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Preferred Location(other than home city)*</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Preferred Location(other than home city)*">
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Preferred Location(other than home city)*" name="preferred_location" required>
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Highest Qualification*</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Highest Qualification">
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Highest Qualification" name="highest_qualification" required>
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1"> Year of Passing*</label>
-    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Year of Passing*">
+    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Year of Passing*" name="year_of_passing" required>
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1"> Current Role*</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Current Role">
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Current Role" name="current_role" required>
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Current Grade*</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Current Grade*">
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Current Grade*" name="current_grade" required>
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Current Organization*</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Current Organization*">
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Current Organization*" name="current_organization">
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1"> Since(in years)*</label>
-    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Since(in years)">
+    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Since(in years)" name="since" required>
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Current CTC(in lac)*</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Current CTC">
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Current CTC" name="current_ctc" required>
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Total Experience(in years)*</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Total Experience">
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Total Experience" name="total_experience" required>
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1"> Upload Resume</label>
-    <input type="file" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="file" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="resume">
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
-
+  <p style="display:none;" class="alert alert-success shows">Success! </p>
 
 
  
@@ -185,3 +181,28 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
 <script src="//geodata.solutions/includes/countrystatecity.js"></script>
 <?php include 'footer.php'; ?>
+
+
+<script>
+$('form#contact').submit(function(e){
+var from = $(this);
+e.preventDefault();
+
+$.ajax({
+url: "send_form_career.php",
+dataType: "html",
+data: form.serialize(),
+success: function(data){
+  $(".shows").show();
+  $(".shows").fadeOut(6000);
+
+
+},
+error: function(){ alert("something went wrong");}
+});
+
+
+});
+
+
+</script>

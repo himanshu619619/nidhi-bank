@@ -37,16 +37,29 @@ For us it is more than a mission; it is what defines our lives,services and our 
 
    
 
- <div class="mangSLider"><div class="bodBlock comBox js-boardDirector"><div class="container" id="2018"><div class="row"><div class="col-md-12"><div class="bodContent bodTitle"><h2>Board of<strong> Directors</strong></h2></div><div class="sliderBlock mrgNone owl-carousel">
+ <div class="mangSLider center"><div class="bodBlock comBox js-boardDirector"><div class="container" id="2018"><div class="row">
+ <div class="  center text-center"><h1>Board of<strong> Directors</strong></h1></div>
+ <div class="col-md-2"></div>   
+ <div class="col-md-9 center">
+    
+ 
+
+ 
+ <div class="sliderBlock mrgNone " >
                       
- <div class="textBlock"><div class="imgBlock"><a href=""><img alt="Rakesh Makhija" class="grayscale" src="img/hema.jpg" /></a></div><h4>Hema Rana</h4><h5>CEO </h5></div>
+ <div class="textBlock text-center" style="display:inline-block"><div class="imgBlock"><a href=""><img alt="Rakesh Makhija" class="grayscale" src="img/hema.jpg" /></a></div>
+ <h4>Hema Rana</h4><h5>CEO </h5>
+</div>
 
 
- <div class="textBlock"><div class="imgBlock"><a href=""><img alt=" Chaudhry" class="grayscale" src="img/default.jpg" /></a></div><h4>Vishnu Pandey</h4><h5>Director</h5></div>
+ <div class="textBlock text-center" style="display:inline-block"><div class="imgBlock"><a href=""><img alt=" Chaudhry" class="grayscale" src="img/default.jpg" /></a></div><h4>Vishnu Pandey</h4><h5>Director</h5></div>
 
 
- <div class="textBlock"><div class="imgBlock"><a href=""><img alt="" class="grayscale" src="img/default.jpg" /></a></div><h4>sandeep Rana</h4><h5>Director</h5></div>
-</div></div></div></div></div></div>
+ <div class="textBlock text-center" style="display:inline-block"  ><div class="imgBlock"><a href=""><img alt="" class="grayscale" src="img/default.jpg" /></a></div><h4>Sandeep Rana</h4><h5>Director</h5></div>
+</div></div>
+<div class="col-md-1"></div>   
+
+</div></div></div></div>
 
 	<br><br>
 	
