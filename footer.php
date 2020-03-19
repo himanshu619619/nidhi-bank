@@ -740,7 +740,7 @@ $(window).resize();
             </div>
             <div class="mlink">
                 <h3 class="js-explore" >
-                   Apply for Membership</h3>
+                <a href="online_apply.php"> Apply for Membership</a></h3>
             </div>
        
             <div class="mlink">
