@@ -685,7 +685,7 @@ $(window).resize(function() {
 $(window).resize();
  
 });
-</script> <a href="#" title="Back to top" class="back-to-top"><span class="icon-drop"></span></a> <div class="overLay"></div> <div class="mobiNav" role="dialog" tabindex="0">
+</script> <a href="#" title="Back to top" class="back-to-top"><span class="icon-drop"></span></a> <div class="overLays"></div> <div class="mobiNav" role="dialog" tabindex="0">
     <div class="mobileMenu">
     <a class="closebtn js-closebtn" href="#"><span class="sr-only">close</span> </a>
 <div class="menuSect">
@@ -768,7 +768,7 @@ $(window).resize();
         //$(".dealPopup, .overLay").fadeIn();
         //$("body").addClass("topMenuOpen");
 
-        $(".overLay").show();
+      //  $(".overLay").show();
         $(".dealPopup").fadeIn();
     }); 
 </script> <div class="popOverlay"></div> <div class="popupWrap"> <div class="closeBtn">x</div> <div class="digiBankBox"> <div class="digiWrap"> <iframe id="iframeApplyNow" class="clsiframeApplyNow" width="800"  frameborder="0"></iframe> </div> </div> </div> </body> 
