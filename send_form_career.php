@@ -5,7 +5,7 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "himanshu@7continentsmedia.com, admin@bfssnidhi.in";
-    $email_subject= "BFSS Contact Detail Fill by contact form";
+    $email_subject= "BFSS Contact Detail Fill by Career";
  
     function died($error) {
         // your error code can go here
