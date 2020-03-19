@@ -829,7 +829,7 @@ to personalize your website experience.</p> </div> <div class="closeBand">
 
 <div class="modal-box" id="popup1"><header><a class="js-modal-close close" href="#">&times;</a>
 <h3>Disclaimer</h3></header><div class="modal-body"><p>At your request, you are being redirected to a third party site. Please read and agree with the disclaimer before proceeding further. Axis Bank does not control such websites and bears no responsibility for them.</p></div><a class="gour-btn  js-modal-close" href="#">Cancel</a>
-<a class="gour-btn js-modal-close" href="https://www.gourmetfest.in/" target="_blank">Accept</a>
+<a class="gour-btn js-modal-close" href="" target="_blank">Accept</a>
 </div>
 
 

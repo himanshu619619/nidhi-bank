@@ -690,34 +690,64 @@ $(window).resize();
     <a class="closebtn js-closebtn" href="#"><span class="sr-only">close</span> </a>
 <div class="menuSect">
             <div class="mlink">
-                <h3 class="js-explore" data-href="exploreProduct">
+                <h3 class="js-explore" >
                     All Products</h3>
+
+                    <div style="    margin-left: 30px;">
+                    <h3 class="js-explore" >
+                    <a href="saving_account.php"> Saving Account</a></h3>       
+                    <h3 class="js-explore" >
+                    <a href="fixed_deposit.php"> Fixed Deposit</a></h3>
+                    <h3 class="js-explore" >
+                    <a href="recurring_deposit_account.php">  Recurring Deposit</a></h3>
+                    <h3 class="js-explore" >
+                    <a href="systematic_investment_plan.php">  Systematic Investment Plan</a></h3> 
+</div>
+
+
+
             </div>
             <div class="mlink">
-                <h3 class="js-explore" data-href="grabDeals">
+                <h3 class="js-explore" >
                     Loan</h3>
+<div style="    margin-left: 30px;">
+                    <h3 class="js-explore" >
+                    <a href="gold_loan.php"> Gold Loan</a></h3>       
+                    <h3 class="js-explore" >
+                   <a href="">  Secured loan</a></h3>
+                    <h3 class="js-explore" >
+                    <a href=""> Mortgage Loan</a></h3>
+                    <h3 class="js-explore">
+                    <a href=""> Personal Loan</a></h3> 
+</div>
+
+
+
             </div>
             <div class="mlink">
-                <h3 class="js-explore" data-href="makePayment">
+                <h3 class="js-explore" >
                     Our Scheme</h3>
+
+                    <div style="    margin-left: 30px;">
+                    <h3 class="js-explore" >
+                   <a href="ujwal_bhavishya_yojana.php">  Ujawal Bhavishya Yojana</a></h3>       
+                    <h3 class="js-explore" >
+                   <a href="mahila_shashakat_yojana.php">  Mahila Shashakat Yojana</a></h3>
+                   
+</div>
+
+
             </div>
             <div class="mlink">
-                <h3 class="js-explore" data-href="bankSmart">
+                <h3 class="js-explore" >
                    Apply for Membership</h3>
             </div>
-           
-            <div class="mlink">
-                <h3 class="js-explore" data-href="applyNow">
-                    Apply Now</h3>
-            </div>
+       
             <div class="mlink">
                 <h3>
-                    <a href="about-us">About Us</a></h3>
+                    <a href="about-us.php">About Us</a></h3>
             </div>
-            <!-- <div class="ftLinks">
-                <a class="onAcc" href="">
-                Start a SIP</a> <a class="axisappDownlLink" href="#">Download App</a>
-            </div> -->
+           
         </div>
 </div>
 

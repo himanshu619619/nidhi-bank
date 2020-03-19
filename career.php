@@ -185,7 +185,6 @@
 
 <script>
 $('form#contact').submit(function(e){
-var form = $(this);
 e.preventDefault();
 
 $.ajax({
@@ -193,7 +192,7 @@ type: "post",
 url: "send_form_career.php",
 dataType: "html",
 contentType: false,
-data: form.serialize(),
+data: new FormData(this),
 success: function(data){
   //  alert(data);
   $(".shows").show();
