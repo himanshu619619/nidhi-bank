@@ -691,7 +691,7 @@ $(window).resize();
 <div class="menuSect">
             <div class="mlink">
                 <h3 class="js-explore" >
-                    All Products</h3>
+                <a href="#">All Products</a></h3>
 
                     <div style="    margin-left: 30px;">
                     <h3 class="js-explore" >
@@ -709,7 +709,7 @@ $(window).resize();
             </div>
             <div class="mlink">
                 <h3 class="js-explore" >
-                    Loan</h3>
+                <a href="#">    Loan</a></h3>
 <div style="    margin-left: 30px;">
                     <h3 class="js-explore" >
                     <a href="gold_loan.php"> Gold Loan</a></h3>       
@@ -726,7 +726,7 @@ $(window).resize();
             </div>
             <div class="mlink">
                 <h3 class="js-explore" >
-                    Our Scheme</h3>
+                <a href="#">     Our Scheme</a></h3>
 
                     <div style="    margin-left: 30px;">
                     <h3 class="js-explore" >
