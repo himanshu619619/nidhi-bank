@@ -193,7 +193,7 @@ url: "send_form_career.php",
 dataType: "html",
 data: form.serialize(),
 success: function(data){
-  alert(data);
+  // alert(data);
   $(".shows").show();
   $(".shows").fadeOut(6000);
 
