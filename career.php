@@ -37,7 +37,7 @@
 </div>
 
 	<div class="col-md-8 " >
-	<form method="post" id="contact">
+	<form method="POST" id="contact">
 <h2> Please fill in the below details.</h2>
 <div class="form-group">
     <label for="exampleInputPassword1">Position applied as*</label>
@@ -185,7 +185,7 @@
 
 <script>
 $('form#contact').submit(function(e){
-var from = $(this);
+var form = $(this);
 e.preventDefault();
 
 $.ajax({
