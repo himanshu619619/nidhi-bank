@@ -37,7 +37,7 @@
 </div>
 
 	<div class="col-md-8 " >
-	<form  method="post" enctype="multipart/form-data" id="contact">
+	<form  action="" method="post" enctype="multipart/form-data" id="contact">
 <h2> Please fill in the below details.</h2>
 <div class="form-group">
     <label for="exampleInputPassword1">Position applied as*</label>
