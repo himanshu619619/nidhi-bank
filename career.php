@@ -192,10 +192,7 @@ $.ajax({
 type: "post",
 url: "send_form_career.php",
 dataType: "html",
-async: false,
-cache: false,
 contentType: false,
-processData: false,
 data: form.serialize(),
 success: function(data){
    alert(data);
