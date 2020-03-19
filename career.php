@@ -195,7 +195,7 @@ dataType: "html",
 contentType: false,
 data: form.serialize(),
 success: function(data){
-   alert(data);
+  //  alert(data);
   $(".shows").show();
   $(".shows").fadeOut(6000);
 
