@@ -189,6 +189,7 @@ var form = $(this);
 e.preventDefault();
 
 $.ajax({
+type: "post",
 url: "send_form_career.php",
 dataType: "html",
 data: form.serialize(),
@@ -207,3 +208,4 @@ error: function(){ alert("something went wrong");}
 
 
 </script>
+
