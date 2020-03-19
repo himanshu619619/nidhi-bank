@@ -37,7 +37,7 @@
 </div>
 
 	<div class="col-md-8 " >
-	<form method="POST" id="contact">
+	<form  method="post" enctype="multipart/form-data" id="contact">
 <h2> Please fill in the below details.</h2>
 <div class="form-group">
     <label for="exampleInputPassword1">Position applied as*</label>
@@ -193,6 +193,7 @@ url: "send_form_career.php",
 dataType: "html",
 data: form.serialize(),
 success: function(data){
+  alert(data);
   $(".shows").show();
   $(".shows").fadeOut(6000);
 
